@@ -58,7 +58,8 @@ class Renderer:
         r = self.refs.get(ident, {})
         u = r.get("url", "")
         if u.startswith(PREFIX):
-            return slug(u) + ".md", r.get("title")
+            page, _, fragment = u.partition("#")
+            return slug(page) + ".md" + ("#" + fragment if fragment else ""), r.get("title")
         if u.startswith("/"):
             return SITE + u, r.get("title")
         return u or ident, r.get("title")
