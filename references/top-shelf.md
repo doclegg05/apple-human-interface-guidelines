@@ -15,7 +15,7 @@ The system defines several layout templates that you can use to give people a co
 
 ## Best practices
 
-**Help people jump right into your content.** Top Shelf provides a path to the content people care about most. Two of the system-provided layout templates — [carousel actions](top-shelf#Carousel-actions.md) and [carousel details](top-shelf#Carousel-details.md) — each include two buttons by default: A primary button intended to begin playback and a More Info button intended to open your app to a view that displays details about the content.
+**Help people jump right into your content.** Top Shelf provides a path to the content people care about most. Two of the system-provided layout templates — [carousel actions](top-shelf.md#Carousel-actions) and [carousel details](top-shelf.md#Carousel-details) — each include two buttons by default: A primary button intended to begin playback and a More Info button intended to open your app to a view that displays details about the content.
 
 **Feature new content.** For example, showcase new releases or episodes, highlight upcoming movies and shows, and avoid promoting content that people have already purchased, rented, or watched.
 
@@ -23,7 +23,7 @@ The system defines several layout templates that you can use to give people a co
 
 **Avoid showing advertisements or prices.** People put your app into Top Shelf because you’ve already sold them on it, so they may not appreciate seeing lots of ads from your app. Showing purchasable content in the Top Shelf is fine, but prefer putting the focus on new and exciting content, and consider displaying prices only when people show interest.
 
-**Showcase compelling dynamic content that can help draw people in and encourage them to view more.** If necessary, you can supply static images, but people typically prefer a captivating, dynamic Top Shelf experience that features the newest or highest rated content. To provide this experience, prefer creating [layered images](images#Layered-images.md) to display in Top Shelf.
+**Showcase compelling dynamic content that can help draw people in and encourage them to view more.** If necessary, you can supply static images, but people typically prefer a captivating, dynamic Top Shelf experience that features the newest or highest rated content. To provide this experience, prefer creating [layered images](images.md#Layered-images) to display in Top Shelf.
 
 **If you don’t provide the recommended full-screen content, supply at least one static image as a fallback.** The system displays a static image when your app is in the Dock and in focus and full-screen content is unavailable. tvOS flips and blurs the image, ensuring that it fits into a width of 1920 pixels at the 16:9 aspect ratio. Use the following values for guidance.
 

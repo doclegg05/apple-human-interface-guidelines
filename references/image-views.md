@@ -36,13 +36,13 @@ An image view can contain rich image data in various formats, like PNG, JPEG, an
 
 ### tvOS
 
-Many tvOS images combine multiple layers with transparency to create a feeling of depth. For guidance, see [Layered images](images#Layered-images.md).
+Many tvOS images combine multiple layers with transparency to create a feeling of depth. For guidance, see [Layered images](images.md#Layered-images).
 
 ### visionOS
 
-Windows in visionOS apps and games can use image views to display 2D and stereoscopic images, as well as spatial photos. If your app uses RealityKit, you can also display images of any type outside of image views next to 3D content, or generate a spatial scene from an existing 2D image. For design guidance, see [Images > visionOS](images#visionOS.md); for developer guidance, see [ImagePresentationComponent](https://developer.apple.com/documentation/realitykit/imagepresentationcomponent).
+Windows in visionOS apps and games can use image views to display 2D and stereoscopic images, as well as spatial photos. If your app uses RealityKit, you can also display images of any type outside of image views next to 3D content, or generate a spatial scene from an existing 2D image. For design guidance, see [Images > visionOS](images.md#visionOS); for developer guidance, see [ImagePresentationComponent](https://developer.apple.com/documentation/realitykit/imagepresentationcomponent).
 
-For guidance on presenting other 3D content in a window or volume, see [Windows > visionOS](windows#visionOS.md).
+For guidance on presenting other 3D content in a window or volume, see [Windows > visionOS](windows.md#visionOS).
 
 ### watchOS
 
@@ -56,7 +56,7 @@ For guidance on presenting other 3D content in a window or volume, see [Windows 
 
 [Image wells](image-wells.md)
 
-[Image buttons](buttons#Image-buttons.md)
+[Image buttons](buttons.md#Image-buttons)
 
 [SF Symbols](sf-symbols.md)
 

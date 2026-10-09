@@ -46,7 +46,7 @@ When necessary, you can provide a custom settings area within your app or game t
 
 When people choose the Settings item in your app’s or game’s App menu, your custom settings window opens. Typically, a custom settings window contains a toolbar that includes buttons for switching between views — called *panes* — that each contain a group of related settings.
 
-**Include a settings item in the [App menu](the-menu-bar#App-menu.md).** Avoid adding settings buttons to a window’s toolbar, because doing so decreases the space available for essential commands that people use frequently. If you provide document-level options, add this item to your app’s [File menu](the-menu-bar#File-menu.md).
+**Include a settings item in the [App menu](the-menu-bar.md#App-menu).** Avoid adding settings buttons to a window’s toolbar, because doing so decreases the space available for essential commands that people use frequently. If you provide document-level options, add this item to your app’s [File menu](the-menu-bar.md#File-menu).
 
 **Dim a settings window’s minimize and maximize buttons.** It’s quick to open a custom settings window using the standard Command–Comma (,) keyboard command, so there’s no need to keep the window in the Dock, and because a settings window accommodates the size of the current pane, people don’t need to expand the window to see more.
 

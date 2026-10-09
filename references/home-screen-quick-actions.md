@@ -19,7 +19,7 @@ Each Home Screen quick action includes a title, an interface icon on the left or
 
 **For each quick action, provide a succinct title that instantly communicates the results of the action.** For example, titles like “Directions Home,” “Create New Contact,” and “New Message” can help people understand what happens when they choose the action. If you need to give more context, provide a subtitle too. Mail uses subtitles to indicate whether there are unread messages in the Inbox and VIP folder. Don’t include your app name or any extraneous information in the title or subtitle, keep the text short to avoid truncation, and take localization into account as you write the text.
 
-**Provide a familiar interface icon for each quick action.** Prefer using [SF Symbols](sf-symbols.md) to represent actions. For a list of icons that represent common actions, see [Standard icons](icons#Standard-icons.md); for additional guidance, see [Menus](menus.md).
+**Provide a familiar interface icon for each quick action.** Prefer using [SF Symbols](sf-symbols.md) to represent actions. For a list of icons that represent common actions, see [Standard icons](icons.md#Standard-icons); for additional guidance, see [Menus](menus.md).
 
 If you design your own interface icon, use the Quick Action Icon Template that’s included with [Apple Design Resources for iOS and iPadOS](https://developer.apple.com/design/resources/#ios-apps).
 

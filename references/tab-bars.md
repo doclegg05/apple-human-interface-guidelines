@@ -36,7 +36,7 @@ If you’re creating custom tab bar icons, see [Apple Design Resources](https://
 
 [Image: An illustration of the bottom half of an iPhone in portrait orientation, with a tab bar at the bottom of the screen. Two of the tabs have red circular badges attached, indicating the presence of critical information.]
 
-**Avoid applying a similar color to tab labels and content layer backgrounds.** If your app already has bright, colorful content in the content layer, prefer a monochromatic appearance for tab bars, or choose an accent color with sufficient visual differentiation. For more guidance, see [Liquid Glass color](color#Liquid-Glass-color.md).
+**Avoid applying a similar color to tab labels and content layer backgrounds.** If your app already has bright, colorful content in the content layer, prefer a monochromatic appearance for tab bars, or choose an accent color with sufficient visual differentiation. For more guidance, see [Liquid Glass color](color.md#Liquid-Glass-color).
 
 ## Platform considerations
 
@@ -44,7 +44,7 @@ If you’re creating custom tab bar icons, see [Apple Design Resources](https://
 
 ### iOS
 
-A tab bar floats above content at the bottom of the screen. Its items rest on a [Liquid Glass](materials#Liquid-Glass.md) background that allows content beneath to peek through.
+A tab bar floats above content at the bottom of the screen. Its items rest on a [Liquid Glass](materials.md#Liquid-Glass) background that allows content beneath to peek through.
 
 For tab bars with an attached accessory, like the MiniPlayer in Music, you can choose to minimize the tab bar and move the accessory inline with it when a person scrolls down. A person can exit the minimized state by tapping a tab or scrolling to the top of the view. For developer guidance, see [TabBarMinimizeBehavior](https://developer.apple.com/documentation/swiftui/tabbarminimizebehavior) and [UITabBarController.MinimizeBehavior](https://developer.apple.com/documentation/uikit/uitabbarcontroller/minimizebehavior).
 

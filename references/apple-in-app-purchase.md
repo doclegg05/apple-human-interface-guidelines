@@ -27,7 +27,7 @@ For marketing and business guidance, see [Apple In-App Purchase](https://develop
 
 ## Best practices
 
-**Let people experience your app before making a purchase.** People may be more inclined to invest in paid items or features after they’ve enjoyed your app and discovered its value. If you offer [Auto-renewable subscriptions](apple-in-app-purchase#Auto-renewable-subscriptions.md), consider supporting limited free access to your content.
+**Let people experience your app before making a purchase.** People may be more inclined to invest in paid items or features after they’ve enjoyed your app and discovered its value. If you offer [Auto-renewable subscriptions](apple-in-app-purchase.md#Auto-renewable-subscriptions), consider supporting limited free access to your content.
 
 **Design an integrated shopping experience.** You don’t want people to think they’ve entered a different app when they browse and purchase your digital products. Present products and handle transactions in ways that mirror the style of your app.
 
@@ -51,7 +51,7 @@ People can use Family Sharing to share access to their purchased content, such a
 
 ### Providing help
 
-Sometimes, people need help with a purchase or want to request a refund. To help make this experience convenient, you can present custom UI within your app that provides assistance, offers alternative solutions, and helps people initiate the system-provided refund flow. For developer guidance, see [beginRefundRequest(for:in:)](https://developer.apple.com/documentation/storekit/transaction/beginrefundrequest(for:in:)-65tph); for related guidance specific to auto-renewable subscriptions, see [Helping people manage their subscriptions](apple-in-app-purchase#Helping-people-manage-their-subscriptions.md).
+Sometimes, people need help with a purchase or want to request a refund. To help make this experience convenient, you can present custom UI within your app that provides assistance, offers alternative solutions, and helps people initiate the system-provided refund flow. For developer guidance, see [beginRefundRequest(for:in:)](https://developer.apple.com/documentation/storekit/transaction/beginrefundrequest(for:in:)-65tph); for related guidance specific to auto-renewable subscriptions, see [Helping people manage their subscriptions](apple-in-app-purchase.md#Helping-people-manage-their-subscriptions).
 
 **Provide help that customers can view before they request a refund.** In addition to including a link to the system-provided refund flow, your custom purchase-help screen can provide assistance you tailor to your app. For example, your custom screen might help people resolve problems with missing purchases, answer frequently asked questions about the in-app purchases you offer, and give people ways to submit feedback or contact you directly for support.
 
@@ -75,7 +75,7 @@ Sometimes, people need help with a purchase or want to request a refund. To help
 
 ## Auto-renewable subscriptions
 
-**Call attention to subscription benefits during onboarding.** By showing the value of your subscription when people first launch your app, you can educate them on how the app works and help them understand what they’ll gain by subscribing. Include a strong call to action and a clear summary of subscription terms (see [Making signup effortless](apple-in-app-purchase#Making-signup-effortless.md)). For related guidance, see [Onboarding](onboarding.md).
+**Call attention to subscription benefits during onboarding.** By showing the value of your subscription when people first launch your app, you can educate them on how the app works and help them understand what they’ll gain by subscribing. Include a strong call to action and a clear summary of subscription terms (see [Making signup effortless](apple-in-app-purchase.md#Making-signup-effortless)). For related guidance, see [Onboarding](onboarding.md).
 
 [Image: A screenshot of the Wave Journal app running on iPhone. The bottom half of the screen includes a highlighted area with the first of five pages that describe the benefits of subscribing, a Try It Free button, and a Sign In button.]
 
@@ -178,7 +178,7 @@ Supporting subscription management means people can upgrade, downgrade, or cance
 
 ### watchOS
 
-The sign-up screen in your watchOS app needs to display the same set of information about your subscription options that you display in other versions of your app. For the complete list of required items, see [Making signup effortless](apple-in-app-purchase#Making-signup-effortless.md). The following guidelines can help you design a sign-up screen that feels at home on Apple Watch.
+The sign-up screen in your watchOS app needs to display the same set of information about your subscription options that you display in other versions of your app. For the complete list of required items, see [Making signup effortless](apple-in-app-purchase.md#Making-signup-effortless). The following guidelines can help you design a sign-up screen that feels at home on Apple Watch.
 
 **Clearly describe the differences between versions of your app that run on different devices.** If your watchOS app supports different functionality or provides a subset of the content that’s available on other devices, be sure to clarify these differences in your description. Be straightforward about the advantages of accessing subscription content through your watchOS app without implying that the experience is identical to the ones in other versions of your app.
 

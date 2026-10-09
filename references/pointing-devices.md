@@ -88,7 +88,7 @@ The system also applies magnetism to text-entry areas, where it can help people 
 
 - Use highlight for a small element that has a transparent background.
 - Use lift for a small element that has an opaque background.
-- Use hover for large elements and customize the scale, tint, and shadow attributes as needed (for guidance, see [Customizing pointers](pointing-devices#Customizing-pointers.md)).
+- Use hover for large elements and customize the scale, tint, and shadow attributes as needed (for guidance, see [Customizing pointers](pointing-devices.md#Customizing-pointers)).
 
 **Prefer the system-provided pointer appearances for standard buttons and text-entry areas.** You can help people feel more comfortable with your app when the pointer behaves in ways they expect.
 

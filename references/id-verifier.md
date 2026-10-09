@@ -47,7 +47,7 @@ Depending on the needs of your app, you can use ID Verifier to make the followin
 
 [IDs in Wallet](https://learn.wallet.apple/id)
 
-[Identity verification](wallet#Identity-verification.md)
+[Identity verification](wallet.md#Identity-verification)
 
 #### Developer documentation
 

@@ -12,7 +12,7 @@ Mac users are very familiar with the macOS menu bar, and they rely on it to help
 
 Menu bar menus on iPad are similar to those on Mac, appearing in the same order and with familiar sets of menu items. When you adopt the menu structure that people expect from their experience on Mac, it helps them immediately understand and take advantage of the menu bar on iPad as well.
 
-Keyboard shortcuts in iPadOS use the same patterns as in macOS. For guidance, see [Standard keyboard shortcuts](keyboards#Standard-keyboard-shortcuts.md).
+Keyboard shortcuts in iPadOS use the same patterns as in macOS. For guidance, see [Standard keyboard shortcuts](keyboards.md#Standard-keyboard-shortcuts).
 
 [Image: An illustration of an app window on iPad, with its menu bar appearing at the top of the screen and the Edit menu open.]
 
@@ -31,7 +31,7 @@ When present in the menu bar, the following menus appear in the order listed bel
 - Window
 - Help
 
-In addition, the macOS menu bar includes the Apple menu on the leading side and menu bar extras on the trailing side. See [macOS Platform considerations](the-menu-bar#macOS.md) for guidance.
+In addition, the macOS menu bar includes the Apple menu on the leading side and menu bar extras on the trailing side. See [macOS Platform considerations](the-menu-bar.md#macOS) for guidance.
 
 ## Best practices
 
@@ -39,9 +39,9 @@ In addition, the macOS menu bar includes the Apple menu on the leading side and 
 
 **Always show the same set of menu items.** Keeping menu items visible helps people learn what actions your app supports, even if they’re unavailable in the current context. If a menu bar item isn’t actionable, disable the action instead of hiding it from the menu.
 
-**Represent menu item actions with familiar icons.** Icons help people recognize common actions throughout your app. Use the same icons as the system to represent actions such as Copy, Share, and Delete, wherever they appear. For a list of icons that represent common actions, see [Standard icons](icons#Standard-icons.md). For additional guidance, see [Menus](menus.md).
+**Represent menu item actions with familiar icons.** Icons help people recognize common actions throughout your app. Use the same icons as the system to represent actions such as Copy, Share, and Delete, wherever they appear. For a list of icons that represent common actions, see [Standard icons](icons.md#Standard-icons). For additional guidance, see [Menus](menus.md).
 
-**Support the keyboard shortcuts defined for the standard menu items you include.** People expect to use the keyboard shortcuts they already know for standard menu items, like Copy, Cut, Paste, Save, and Print. Define custom keyboard shortcuts only when necessary. For guidance, see [Standard keyboard shortcuts](keyboards#Standard-keyboard-shortcuts.md).
+**Support the keyboard shortcuts defined for the standard menu items you include.** People expect to use the keyboard shortcuts they already know for standard menu items, like Copy, Cut, Paste, Save, and Print. Define custom keyboard shortcuts only when necessary. For guidance, see [Standard keyboard shortcuts](keyboards.md#Standard-keyboard-shortcuts).
 
 **Prefer short, one-word menu titles.** Various factors — like different display sizes and the presence of menu bar extras — can affect the spacing and appearance of your menus. One-word menu titles work especially well in the menu bar because they take little space and are easy for people to scan. If you need to use more than one word in the menu title, use title-style capitalization.
 
@@ -129,7 +129,7 @@ The Format menu typically contains the following top-level menu items, listed in
 
 The View menu lets people customize the appearance of all an app’s windows, regardless of type.
 
-> **Important:** The View menu doesn’t include items for navigating between or managing specific windows; the [Window menu](the-menu-bar#Window-menu.md) provides these commands.
+> **Important:** The View menu doesn’t include items for navigating between or managing specific windows; the [Window menu](the-menu-bar.md#Window-menu) provides these commands.
 
 **Provide a View menu even if your app supports only a subset of the standard view functions.** For example, if your app doesn’t include a tab bar, toolbar, or sidebar, but does support full-screen mode, provide a View menu that includes only the Enter/Exit Full Screen menu item.
 
@@ -160,7 +160,7 @@ Your app’s custom menus appear in the menu bar between the View menu and the W
 
 The Window menu lets people navigate, organize, and manage an app’s windows.
 
-> **Important:** The Window menu doesn’t help people customize the appearance of windows or close them. To customize a window, people use commands in the [View menu](the-menu-bar#View-menu.md); to close a window, people choose Close in the [File menu](the-menu-bar#File-menu.md).
+> **Important:** The Window menu doesn’t help people customize the appearance of windows or close them. To customize a window, people use commands in the [View menu](the-menu-bar.md#View-menu); to close a window, people choose Close in the [File menu](the-menu-bar.md#File-menu).
 
 **Provide a Window menu even if your app has only one window.** Include the Minimize and Zoom menu items so people using Full Keyboard Access can use the keyboard to invoke these functions.
 
@@ -171,7 +171,7 @@ The Window menu typically contains the following top-level menu items, listed in
 | Menu item | Action | Guidance |
 |---|---|---|
 | Minimize | Minimizes the active window to the Dock. Pressing the Option key changes this item to Minimize All. |  |
-| Zoom | Toggles between a predefined size appropriate to the window’s content and the window size people set. Pressing the Option key changes this item to Zoom All. | Avoid using Zoom to enter or exit full-screen mode. The [View menu](the-menu-bar#View-menu.md) supports these functions. |
+| Zoom | Toggles between a predefined size appropriate to the window’s content and the window size people set. Pressing the Option key changes this item to Zoom All. | Avoid using Zoom to enter or exit full-screen mode. The [View menu](the-menu-bar.md#View-menu) supports these functions. |
 | Show Previous Tab | Shows the tab before the current tab in a tab-based window. |  |
 | Show Next Tab | Shows the tab after the current tab in a tab-based window. |  |
 | Move Tab to New Window | Opens the current tab in a new window. |  |
@@ -233,7 +233,7 @@ As with the macOS menu bar, the iPadOS menu bar provides a familiar way for peop
 
 ### macOS
 
-The menu bar in macOS includes the Apple menu, which is always the first item on the leading side of the menu bar. The Apple menu includes system-defined menu items that are always available, and you can’t modify or remove it. Space permitting, the system can also display menu bar extras in the trailing end of the menu bar. For guidance, see [Menu bar extras](the-menu-bar#Menu-bar-extras.md).
+The menu bar in macOS includes the Apple menu, which is always the first item on the leading side of the menu bar. The Apple menu includes system-defined menu items that are always available, and you can’t modify or remove it. Space permitting, the system can also display menu bar extras in the trailing end of the menu bar. For guidance, see [Menu bar extras](the-menu-bar.md#Menu-bar-extras).
 
 When menu bar space is constrained, the system prioritizes the display of menus and essential menu bar extras. To ensure that menus remain readable, the system may decrease the space between the titles, truncating them if necessary.
 
@@ -265,7 +265,7 @@ When necessary, the system hides menu bar extras to make room for app menus. Sim
 
 [Dock menus](dock-menus.md)
 
-[Standard keyboard shortcuts](keyboards#Standard-keyboard-shortcuts.md)
+[Standard keyboard shortcuts](keyboards.md#Standard-keyboard-shortcuts)
 
 #### Developer documentation
 

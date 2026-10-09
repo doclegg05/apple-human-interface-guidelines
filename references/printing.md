@@ -39,7 +39,7 @@
 
 [File management](file-management.md)
 
-[File menu](the-menu-bar#File-menu.md)
+[File menu](the-menu-bar.md#File-menu)
 
 #### Developer documentation
 

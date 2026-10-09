@@ -10,7 +10,7 @@
 
 People expect to use multitasking on their devices, and they may think something is wrong if your app doesn’t allow it. With rare exceptions — such as some games, and Apple Vision Pro apps running in a Full Space — every app needs to work well with multitasking.
 
-In addition to app switching, multitasking can present different experiences on different devices; see [Platform considerations](multitasking#Platform-considerations.md).
+In addition to app switching, multitasking can present different experiences on different devices; see [Platform considerations](multitasking.md#Platform-considerations).
 
 ## Best practices
 
@@ -49,7 +49,7 @@ People can use iPad with either full-screen or windowed apps. When full screen, 
 
 [Image: A screenshot of the iPad app switcher in landscape orientation, showing five open apps. Thumbnail representations of the apps are arranged in a grid.]
 
-When using windowed apps, app windows are resizable, and people can arrange them to suit their needs with behavior similar to macOS. The system provides window controls for common tiling configurations, entering full screen, minimizing, and closing windows. The system identifies the frontmost window by coloring its window controls and casting a drop shadow on windows behind it. For guidance, see [Windows > iPadOS](windows#iPadOS.md).
+When using windowed apps, app windows are resizable, and people can arrange them to suit their needs with behavior similar to macOS. The system provides window controls for common tiling configurations, entering full screen, minimizing, and closing windows. The system identifies the frontmost window by coloring its window controls and casting a drop shadow on windows behind it. For guidance, see [Windows > iPadOS](windows.md#iPadOS).
 
 [Image: A screenshot of two windowed apps on iPad in landscape orientation. The frontmost app window overlaps and casts a shadow on the one behind it, and has colored window controls to indicate that the window is active. Both windows sit atop the Home Screen background, and the Dock appears at the bottom.]
 
@@ -61,7 +61,7 @@ To help your app respond correctly when people open it while windowed, make sure
 
 ### macOS
 
-On Mac, multitasking is the default experience because people typically run more than one app at a time, switching between windows and tasks as they work. When multiple app windows are open, macOS applies drop shadows that make the windows appear layered on the desktop, and applies other visual effects to help people distinguish different window states; for guidance, see [macOS window states](windows#macOS-window-states.md).
+On Mac, multitasking is the default experience because people typically run more than one app at a time, switching between windows and tasks as they work. When multiple app windows are open, macOS applies drop shadows that make the windows appear layered on the desktop, and applies other visual effects to help people distinguish different window states; for guidance, see [macOS window states](windows.md#macOS-window-states).
 
 ### tvOS
 

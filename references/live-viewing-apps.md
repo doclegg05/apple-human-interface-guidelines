@@ -25,7 +25,7 @@ Live-viewing apps need to elevate and prioritize live content. In every screen, 
 
 - Give it a subtle treatment, such as a darkening, to keep text legible and help all items remain visually distinct from the content playing behind it.
 - Make it easy for people to identify the thumbnail that represents the currently playing content by, for example, badging the thumbnail or tinting its progress bar.
-- Match the categories in the content footer to those in your electronic program guide (for related guidance, see [EPG experience](live-viewing-apps#EPG-experience.md)).
+- Match the categories in the content footer to those in your electronic program guide (for related guidance, see [EPG experience](live-viewing-apps.md#EPG-experience)).
 - Design a simple, predictable way for people to invoke and dismiss the content footer — for example, if swiping up invokes the footer, people would expect swiping down to dismiss it.
 
 **Provide instant visual feedback when people change channels.** This is essential for two reasons: people need confirmation that they’ve arrived at the channel they want, and providing feedback can give the streaming content some time to load.

@@ -30,7 +30,7 @@ Depending on the rendering mode you choose, a symbol can produce various appeara
 
 [Image: An image of the cloud sun rain fill symbol that uses three different opacities of the system blue color in the symbol’s three different layers: the cloud is fully opaque, the sun is about 50% opaque, and the raindrops are about 25% opaque.]
 
-To learn more about supporting rendering modes in custom symbols, see [Custom symbols](sf-symbols#Custom-symbols.md).
+To learn more about supporting rendering modes in custom symbols, see [Custom symbols](sf-symbols.md#Custom-symbols).
 
 SF Symbols supports the following rendering modes.
 
@@ -102,7 +102,7 @@ In addition to outline and fill, SF Symbols also defines variants that include a
 
 [Image: A diagram showing two rows of the same five symbols. In the top row, every symbol uses the outline variant; the bottom row shows the fill variant of each symbol. From the left, the symbols are heart, heart slash, heart circle, heart square, and a heart in a rectangle.]
 
-SF Symbols provides many variants for specific languages and writing systems, including Latin, Arabic, Hebrew, Hindi, Thai, Chinese, Japanese, Korean, Cyrillic, Devanagari, and several Indic numeral systems. Language- and script-specific variants adapt automatically when the device language changes. For guidance, see [Images](right-to-left#Images.md).
+SF Symbols provides many variants for specific languages and writing systems, including Latin, Arabic, Hebrew, Hindi, Thai, Chinese, Japanese, Korean, Cyrillic, Devanagari, and several Indic numeral systems. Language- and script-specific variants adapt automatically when the device language changes. For guidance, see [Images](right-to-left.md#Images).
 
 [Image: A diagram with eight rows of the same twelve symbols, where each row shows a localized version of the symbol. From the left the symbols are doc rich text, doc rich text fill, character book closed, character book closed fill, character bubble, character bubble fill, character, text format superscript, text format subscript, text format size, character text box, and character cursor I beam.]
 
@@ -118,7 +118,7 @@ In many cases, the view that displays a symbol determines whether to use outline
 
 SF Symbols provides a collection of expressive, configurable animations that enhance your interface and add vitality to your app. Symbol animations help communicate ideas, provide feedback in response to people’s actions, and signal changes in status or ongoing activities.
 
-Animations work on all SF Symbols in the library, in all rendering modes, weights, and scales, and on custom symbols. For considerations when animating custom symbols, see [Custom symbols](sf-symbols#Custom-symbols.md). You can control the playback of an animation, whether you want the animation to run from start to finish, or run indefinitely, repeating its effect until a condition is met. You can customize behaviors, like changing the playback speed of an animation or determining whether to reverse an animation before repeating it. For developer guidance, see [Symbols](https://developer.apple.com/documentation/symbols) and [SymbolEffect](https://developer.apple.com/documentation/symbols/symboleffect).
+Animations work on all SF Symbols in the library, in all rendering modes, weights, and scales, and on custom symbols. For considerations when animating custom symbols, see [Custom symbols](sf-symbols.md#Custom-symbols). You can control the playback of an animation, whether you want the animation to run from start to finish, or run indefinitely, repeating its effect until a condition is met. You can customize behaviors, like changing the playback speed of an animation or determining whether to reverse an animation before repeating it. For developer guidance, see [Symbols](https://developer.apple.com/documentation/symbols) and [SymbolEffect](https://developer.apple.com/documentation/symbols/symboleffect).
 
 **Appear** — Causes a symbol to gradually emerge into view.
 

@@ -133,7 +133,7 @@ Similarly, a rectangular accessory widget appears as follows:
 
 [Image: A Calendar widget in the Smart Stack on Apple Watch. It displays a team meeting at 4 P.M. in a conference room.]
 
-Each appearance described above includes a [rendering mode](widgets#Rendering-modes.md) that depends on the platform and a person’s appearance settings:
+Each appearance described above includes a [rendering mode](widgets.md#Rendering-modes) that depends on the platform and a person’s appearance settings:
 
 - The system uses the [full color](https://developer.apple.com/documentation/widgetkit/widgetrenderingmode/fullcolor) rendering mode for system family widgets across all platforms to display your widget in full color. It doesn’t change the color of your views.
 - The system uses the [accented](https://developer.apple.com/documentation/widgetkit/widgetrenderingmode/accented) rendering mode for system family widgets across all platforms and for accessory widgets on Apple Watch. In the accented rendering mode, the system removes the background and replaces it with a tinted color effect for a tinted appearance and a Liquid Glass background for a clear appearance. Additionally, it divides the widget’s views into an accent group and a primary group, and then applies a solid color to each group.
@@ -149,7 +149,7 @@ The following table lists the occurrences for each rendering mode per platform:
 | Mac | Desktop and Notification Center | Not supported | Desktop |
 | Apple Vision Pro | Horizontal and vertical surfaces | Horizontal and vertical surfaces | Not supported |
 
-For additional design guidance, see [Rendering modes](widgets#Rendering-modes.md). For developer guidance, see [Preparing widgets for additional platforms, contexts, and appearances](https://developer.apple.com/documentation/widgetkit/preparing-widgets-for-additional-contexts-and-appearances) and [WidgetRenderingMode](https://developer.apple.com/documentation/widgetkit/widgetrenderingmode).
+For additional design guidance, see [Rendering modes](widgets.md#Rendering-modes). For developer guidance, see [Preparing widgets for additional platforms, contexts, and appearances](https://developer.apple.com/documentation/widgetkit/preparing-widgets-for-additional-contexts-and-appearances) and [WidgetRenderingMode](https://developer.apple.com/documentation/widgetkit/widgetrenderingmode).
 
 ## Best practices
 
@@ -207,7 +207,7 @@ People tap or click a widget to launch its corresponding app. It can also includ
 
 Widgets scale to adapt to the screen sizes of different devices and onscreen areas. Supply content at appropriate sizes to make sure that your widget looks great on every device and let the system resize or scale it as necessary. In iOS, the system ensures that your widget looks good on small devices by resizing the content you design for large devices. In iPadOS, the system renders your widget at a large size before scaling it down for display on the Home Screen.
 
-As you design for various devices and scale factors, use the values listed in [Specifications](widgets#Specifications.md) and the [Apple Design Resources](https://developer.apple.com/design/resources/) for guidance; for your production widget, use [SwiftUI](https://developer.apple.com/documentation/swiftui) to ensure flexibility.
+As you design for various devices and scale factors, use the values listed in [Specifications](widgets.md#Specifications) and the [Apple Design Resources](https://developer.apple.com/design/resources/) for guidance; for your production widget, use [SwiftUI](https://developer.apple.com/documentation/swiftui) to ensure flexibility.
 
 **In general, use standard margins to ensure legibility.** Use the standard margin width for widgets — 16 points for most widgets — to avoid crowding their edges and creating a cluttered appearance. If you need to use tighter margins — for example, to create content groupings for graphics, buttons, or background shapes — setting margins of 11 points can work well. Additionally, note that widgets use smaller margins on the desktop on Mac and on the Lock Screen, including in StandBy. For developer guidance, see [padding(_:_:)](https://developer.apple.com/documentation/swiftui/view/padding(_:_:)).
 
@@ -221,7 +221,7 @@ As you design for various devices and scale factors, use the values listed in [S
 
 **Avoid rasterizing text.** Always use text elements and styles to ensure that your text scales well and to allow VoiceOver to speak your content.
 
-> **Note:** In iOS, iPadOS, and visionOS, widgets support Dynamic Type sizes from Large to AX5 when you use [Font](https://developer.apple.com/documentation/swiftui/font) to choose a system font or [custom(_:size:)](https://developer.apple.com/documentation/swiftui/font/custom(_:size:)) to choose a custom font. For more information about Dynamic Type sizes, see [Supporting Dynamic Type](typography#Supporting-Dynamic-Type.md).
+> **Note:** In iOS, iPadOS, and visionOS, widgets support Dynamic Type sizes from Large to AX5 when you use [Font](https://developer.apple.com/documentation/swiftui/font) to choose a system font or [custom(_:size:)](https://developer.apple.com/documentation/swiftui/font/custom(_:size:)) to choose a custom font. For more information about Dynamic Type sizes, see [Supporting Dynamic Type](typography.md#Supporting-Dynamic-Type).
 
 ### Using color
 

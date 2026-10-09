@@ -88,7 +88,7 @@ Checking out is a time-sensitive action, and merchants need the process to work 
 
 [Image: An X in a circle to indicate incorrect usage.]
 
-> **Important:** Use the “Tap to Pay on iPhone” label only for payment actions. For language you can use for nonpayment actions, see [Additional interactions](tap-to-pay-on-iphone#Additional-interactions.md).
+> **Important:** Use the “Tap to Pay on iPhone” label only for payment actions. For language you can use for nonpayment actions, see [Additional interactions](tap-to-pay-on-iphone.md#Additional-interactions).
 
 **Design your Tap to Pay on iPhone button to match the other buttons in your app.** Although you must use the labels “Tap to Pay on iPhone” or “Tap to Pay” as described above, you can use the button color and shape that coordinate best with your interface.
 

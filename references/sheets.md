@@ -26,7 +26,7 @@ There are several common buttons that help people navigate through and dismiss s
 - The **Done** button dismisses a sheet after completing a task or explicitly saving changes.
 - The **Back** button lets people navigate to a previous step in a multi-step flow or to a parent view in a hierarchy. It isn’t intended to dismiss a sheet.
 
-The placement of these buttons varies between platforms; see [Platform considerations](sheets#Platform-considerations.md).
+The placement of these buttons varies between platforms; see [Platform considerations](sheets.md#Platform-considerations).
 
 ## Best practices
 
@@ -34,7 +34,7 @@ The placement of these buttons varies between platforms; see [Platform considera
 
 **Display only one sheet at a time from the main interface.** When people close a sheet, they expect to return to the parent view or window. If closing a sheet takes people back to another sheet, they can lose track of where they are in your app. If something people do within a sheet results in another sheet appearing, close the first sheet before displaying the new one. If necessary, you can display the first sheet again after people dismiss the second one.
 
-**Use a nonmodal view when you want to present supplementary items that affect the main task in the parent view.** To give people access to information and actions they need while continuing to interact with the main window, consider using a [split view](split-views.md) in visionOS or a [panel](panels.md) in macOS; in iOS and iPadOS, you can use a nonmodal sheet for this workflow. For guidance, see [iOS, iPadOS](sheets#iOS-iPadOS.md).
+**Use a nonmodal view when you want to present supplementary items that affect the main task in the parent view.** To give people access to information and actions they need while continuing to interact with the main window, consider using a [split view](split-views.md) in visionOS or a [panel](panels.md) in macOS; in iOS and iPadOS, you can use a nonmodal sheet for this workflow. For guidance, see [iOS, iPadOS](sheets.md#iOS-iPadOS).
 
 **Provide an alternative to the Done button.** If you provide a Done button, always pair it with a Cancel button to give people a clear way to dismiss the sheet without confirming or saving their changes, or a Back button to move to a previous step in the sheet. Relying solely on the Done button implies that completing the task is the only way to exit the sheet, which can feel restrictive or misleading.
 
@@ -110,7 +110,7 @@ While a sheet is visible in a visionOS app, it floats in front of its parent win
 
 [Video: A recording showing a sheet opening above a blank window in visionOS.]
 
-**Avoid displaying a sheet that emerges from the bottom edge of a window.** To help people view the sheet, prefer centering it in their [field of view](spatial-layout#Field-of-view.md).
+**Avoid displaying a sheet that emerges from the bottom edge of a window.** To help people view the sheet, prefer centering it in their [field of view](spatial-layout.md#Field-of-view).
 
 **Present a sheet in a default size that helps people retain their context.** Avoid displaying a sheet that covers most or all of its window, but consider letting people resize the sheet if they want.
 
@@ -124,7 +124,7 @@ In watchOS, a sheet is a full-screen view that slides over your app’s current 
 
 **Keep sheet interactions brief and occasional.** Use a sheet only as a temporary interruption to the current workflow, and only to facilitate an important task. Avoid using a sheet to help people navigate your app’s content.
 
-**If you change the default label, prefer using SF Symbols to represent the action.** Avoid using a label that might mislead people into thinking that the sheet is part of a hierarchical navigation interface. Also, if the text in the top-leading corner looks like a page or app title, people won’t know how to dismiss the sheet. For guidance, see [Standard icons](icons#Standard-icons.md).
+**If you change the default label, prefer using SF Symbols to represent the action.** Avoid using a label that might mislead people into thinking that the sheet is part of a hierarchical navigation interface. Also, if the text in the top-leading corner looks like a page or app title, people won’t know how to dismiss the sheet. For guidance, see [Standard icons](icons.md#Standard-icons).
 
 [Image: A screenshot that shows a top toolbar with a custom Back button at the top of the screen on Apple Watch.]
 

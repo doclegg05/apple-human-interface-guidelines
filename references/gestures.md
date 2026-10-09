@@ -10,7 +10,7 @@
 
 Depending on the device they’re using, people can make gestures on a touchscreen, in the air, or on a range of input devices such as a trackpad, mouse, remote, or game controller that includes a touch surface.
 
-Every platform supports basic gestures like tap, swipe, and drag. Although the precise movements that make up basic gestures can vary per platform and input device, people are familiar with the underlying functionality of these gestures and expect to use them everywhere. For a list of these gestures, see [Standard gestures](gestures#Standard-gestures.md).
+Every platform supports basic gestures like tap, swipe, and drag. Although the precise movements that make up basic gestures can vary per platform and input device, people are familiar with the underlying functionality of these gestures and expect to use them everywhere. For a list of these gestures, see [Standard gestures](gestures.md#Standard-gestures).
 
 ## Best practices
 
@@ -41,7 +41,7 @@ Every platform supports basic gestures like tap, swipe, and drag. Although the p
 
 ### iOS, iPadOS
 
-In addition to the [standard gestures](gestures#Standard-gestures.md) supported in all platforms, iOS and iPadOS support a few other gestures that people expect.
+In addition to the [standard gestures](gestures.md#Standard-gestures) supported in all platforms, iOS and iPadOS support a few other gestures that people expect.
 
 | Gesture | Common action |
 |---|---|
@@ -54,11 +54,11 @@ In addition to the [standard gestures](gestures#Standard-gestures.md) supported 
 
 ### macOS
 
-People primarily interact with macOS using a [keyboard](keyboards.md) and mouse. In addition, they can make [standard gestures](gestures#Standard-gestures.md) on a Magic Trackpad, Magic Mouse, or a [game controller](game-controls.md) that includes a touch surface.
+People primarily interact with macOS using a [keyboard](keyboards.md) and mouse. In addition, they can make [standard gestures](gestures.md#Standard-gestures) on a Magic Trackpad, Magic Mouse, or a [game controller](game-controls.md) that includes a touch surface.
 
 ### tvOS
 
-People expect to use [standard gestures](gestures#Standard-gestures.md) to navigate tvOS apps and games with a compatible remote, Siri Remote, or [game controller](game-controls.md) that includes a touch surface. For guidance, see [Remotes](remotes.md).
+People expect to use [standard gestures](gestures.md#Standard-gestures) to navigate tvOS apps and games with a compatible remote, Siri Remote, or [game controller](game-controls.md) that includes a touch surface. For guidance, see [Remotes](remotes.md).
 
 ### visionOS
 
@@ -72,7 +72,7 @@ People use a *direct* gesture to physically touch an interactive object. For exa
 
 [Video: A recording showing a table with a vertical stack of three virtual cubic blocks on it in visionOS. A person moves their hand toward the blocks from right to left, and their extended fingers touch and push aside the center block. The center block falls to the side, and the other block also tumbles onto the tabletop.]
 
-Here are the standard direct gestures people use in visionOS; see [Specifications](gestures#Specifications.md) for a list of standard indirect gestures.
+Here are the standard direct gestures people use in visionOS; see [Specifications](gestures.md#Specifications) for a list of standard indirect gestures.
 
 | Direct gesture | Common use |
 |---|---|

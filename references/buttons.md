@@ -32,7 +32,7 @@ System buttons offer a range of styles that support customization while providin
 
 **Use style — not size — to visually distinguish the preferred choice among multiple options.** When you use buttons of the same size to offer two or more options, you signal that the options form a coherent set of choices. By contrast, placing two buttons of different sizes near each other can make the interface look confusing and inconsistent. If you want to highlight the preferred or most likely option in a set, use a more prominent button style for that option and a less prominent style for the remaining ones.
 
-**Avoid applying a similar color to button labels and content layer backgrounds.** If your app already has bright, colorful content in the content layer, prefer using the default monochromatic appearance of button labels. For more guidance, see [Liquid Glass color](color#Liquid-Glass-color.md).
+**Avoid applying a similar color to button labels and content layer backgrounds.** If your app already has bright, colorful content in the content layer, prefer using the default monochromatic appearance of button labels. For more guidance, see [Liquid Glass color](color.md#Liquid-Glass-color).
 
 ## Content
 
@@ -40,7 +40,7 @@ System buttons offer a range of styles that support customization while providin
 
 > **Note:** In macOS and visionOS, the system displays a tooltip after people hover over a button for a moment. A tooltip displays a brief phrase that explains what a button does; for guidance, see [Offering help](offering-help.md).
 
-**Try to associate familiar actions with familiar icons.** For example, people can predict that a button containing the `square.and.arrow.up` symbol will help them perform share-related activities. If it makes sense to use an icon in your button, consider using an existing or customized [symbol](sf-symbols.md). For a list of symbols that represent common actions, see [Standard icons](icons#Standard-icons.md).
+**Try to associate familiar actions with familiar icons.** For example, people can predict that a button containing the `square.and.arrow.up` symbol will help them perform share-related activities. If it makes sense to use an icon in your button, consider using an existing or customized [symbol](sf-symbols.md). For a list of symbols that represent common actions, see [Standard icons](icons.md#Standard-icons).
 
 **Consider using text when a short label communicates more clearly than an icon.** To use text, write a few words that succinctly describe what the button does. Using [title-style capitalization](https://help.apple.com/applestyleguide/#/apsgb744e4a3?sub=apdca93e113f1d64), consider starting the label with a verb to help convey the button’s action — for example, a button that lets people add items to their shopping cart might use the label “Add to Cart.”
 
@@ -170,8 +170,8 @@ In visionOS, buttons can have the following sizes.
 
 **Prefer buttons that have a discernible background shape and fill.** It tends to be easier for people to see a button when it’s enclosed in a shape that uses a contrasting background fill. The exception is a button in a toolbar, context menu, alert, or [ornament](ornaments.md) where the shape and material of the larger component make the button comfortably visible. The following guidelines can help you ensure that a button looks good in different contexts:
 
-- When a button appears on top of a glass [window](windows#visionOS.md), use the [thin](https://developer.apple.com/documentation/swiftui/material/thin) material as the button’s background.
-- When a button appears floating in space, use the [glass material](materials#visionOS.md) for its background.
+- When a button appears on top of a glass [window](windows.md#visionOS), use the [thin](https://developer.apple.com/documentation/swiftui/material/thin) material as the button’s background.
+- When a button appears floating in space, use the [glass material](materials.md#visionOS) for its background.
 
 **Avoid creating a custom button that uses a white background fill and black text or icons.** The system reserves this visual style to convey the toggled state.
 
@@ -189,7 +189,7 @@ watchOS displays all inline buttons using the [capsule](https://developer.apple.
 
 [Image: An illustration that represents a screen on Apple Watch, which includes capsule-shaped Primary and Secondary buttons.]
 
-**Use a toolbar to place buttons in the corners.** The system automatically moves the time and title to accommodate toolbar buttons. The system also applies the [Liquid Glass](materials#Liquid-Glass.md) appearance to toolbar buttons, providing a clear visual distinction from the content beneath them.
+**Use a toolbar to place buttons in the corners.** The system automatically moves the time and title to accommodate toolbar buttons. The system also applies the [Liquid Glass](materials.md#Liquid-Glass) appearance to toolbar buttons, providing a clear visual distinction from the content beneath them.
 
 [Image: An illustration showing toolbar buttons in the top leading and trailing corners, as well as three toolbar buttons across the bottom of the screen.]
 
@@ -211,7 +211,7 @@ watchOS displays all inline buttons using the [capsule](https://developer.apple.
 
 [Segmented controls](segmented-controls.md)
 
-[Location button](privacy#Location-button.md)
+[Location button](privacy.md#Location-button)
 
 #### Developer documentation
 

@@ -22,7 +22,7 @@ Ornaments can appear on any edge of a window and can contain UI components like 
 
 **Aim to keep an ornament’s width the same or narrower than the width of the associated window.** If an ornament is wider than its window, it can interfere with a tab bar or other vertical content on the window’s side.
 
-**Consider using borderless buttons in an ornament.** By default, an ornament’s background is [glass](materials#visionOS.md), so if you place a button directly on the background, it may not need a visible border. When people look at a borderless button in an ornament, the system automatically applies the hover effect to it (for guidance, see [Eyes](eyes.md)).
+**Consider using borderless buttons in an ornament.** By default, an ornament’s background is [glass](materials.md#visionOS), so if you place a button directly on the background, it may not need a visible border. When people look at a borderless button in an ornament, the system automatically applies the hover effect to it (for guidance, see [Eyes](eyes.md)).
 
 **Use system-provided toolbars and tab bars unless you need to create custom components.** In visionOS, toolbars and tab bars automatically appear as ornaments, so you don’t need to use an ornament to create these components. For developer guidance, see [Toolbars](https://developer.apple.com/documentation/swiftui/toolbars) and [TabView](https://developer.apple.com/documentation/swiftui/tabview).
 

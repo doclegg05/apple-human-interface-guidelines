@@ -18,10 +18,10 @@ As you begin designing your app or game for tvOS, start by understanding the fol
 
 **System features.** Apple TV users expect their apps and games to integrate well with the following system experiences.
 
-- [Integrating with the TV app](playing-video#Integrating-with-the-TV-app.md)
+- [Integrating with the TV app](playing-video.md#Integrating-with-the-TV-app)
 - [SharePlay](shareplay.md)
 - [Top Shelf](top-shelf.md)
-- [TV provider accounts](managing-accounts#TV-provider-accounts.md)
+- [TV provider accounts](managing-accounts.md#TV-provider-accounts)
 
 ## Best practices
 

@@ -21,7 +21,7 @@ For iOS and iPadOS games, supporting touch interaction means that you can provid
 
 **Determine whether it makes sense to display virtual controls on top of game content.** In general, virtual game controls benefit games that offer a large number of actions or require players to control movement. However, sometimes gameplay is more immersive and effective when players can interact directly with in-game objects. Look for opportunities to reduce the amount of virtual controls that overlap your game content by associating actions with in-game gestures instead. For example, consider letting players tap objects to select them instead of adding a virtual selection button.
 
-**Place virtual buttons where they’re easy to access.** Take into account the device’s boundaries and [safe areas](layout#Guides-and-safe-areas.md) as well as comfortable locations for controls. Make sure to position buttons where they don’t overlap system features like the Home indicator or Dynamic Island on iPhone. Place frequently used buttons near a player’s thumb, avoiding the circular regions where players expect movement and camera input to happen. Place secondary controls, like menus, at the top of the screen.
+**Place virtual buttons where they’re easy to access.** Take into account the device’s boundaries and [safe areas](layout.md#Guides-and-safe-areas) as well as comfortable locations for controls. Make sure to position buttons where they don’t overlap system features like the Home indicator or Dynamic Island on iPhone. Place frequently used buttons near a player’s thumb, avoiding the circular regions where players expect movement and camera input to happen. Place secondary controls, like menus, at the top of the screen.
 
 [Image: A graphic that shows ideal placement for touch controls for an iPhone in landscape orientation.] Caption: Placing virtual controls within reach of people’s thumbs can make your game more comfortable to play.
 
@@ -106,7 +106,7 @@ Keyboard players appreciate using keyboard bindings to speed up their interactio
 
 ### visionOS
 
-**Match spatial game controller behavior to hand input.** In addition to supporting a wide array of wireless game controllers, your visionOS game can also support spatial game controllers such as PlayStation VR2 Sense controller. Allow players to interact with your game in a similar manner to how they interact using their hands. Specifically, support looking at an object and pressing the controller’s left or right trigger button to indirectly interact, or reaching out and pressing the left or right trigger button to directly interact. For more information, see [visionOS](gestures#visionOS.md).
+**Match spatial game controller behavior to hand input.** In addition to supporting a wide array of wireless game controllers, your visionOS game can also support spatial game controllers such as PlayStation VR2 Sense controller. Allow players to interact with your game in a similar manner to how they interact using their hands. Specifically, support looking at an object and pressing the controller’s left or right trigger button to indirectly interact, or reaching out and pressing the left or right trigger button to directly interact. For more information, see [visionOS](gestures.md#visionOS).
 
 ## Resources
 

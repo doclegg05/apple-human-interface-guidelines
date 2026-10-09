@@ -50,7 +50,7 @@ In all platforms, alerts display a title, optional informative text, and up to t
 
 - In iOS, iPadOS, macOS, and visionOS, an alert can include a text field.
 - Alerts in macOS and visionOS can include an icon and an accessory view.
-- macOS alerts can add a suppression [checkbox](toggles#Checkboxes.md) and a [Help button](buttons#Help-buttons.md).
+- macOS alerts can add a suppression [checkbox](toggles.md#Checkboxes) and a [Help button](buttons.md#Help-buttons).
 
 **In all alert copy, be direct, and use a neutral, approachable tone.** Alerts often describe problems and serious situations, so avoid being oblique or accusatory, or masking the severity of the issue.
 
@@ -58,7 +58,7 @@ In all platforms, alerts display a title, optional informative text, and up to t
 
 **Include informative text only if it adds value.** If you need to add an informative message, keep it as short as possible, using complete sentences, sentence-style capitalization, and appropriate punctuation.
 
-**Avoid explaining alert buttons.** If your alert text and button titles are clear, you don’t need to explain what the buttons do. In rare cases where you need to provide guidance on choosing a button, use a term like *choose* to account for people’s current device and interaction method, and refer to a button using its exact title without quotes. For guidance, see [Buttons](alerts#Buttons.md).
+**Avoid explaining alert buttons.** If your alert text and button titles are clear, you don’t need to explain what the buttons do. In rare cases where you need to provide guidance on choosing a button, use a term like *choose* to account for people’s current device and interaction method, and refer to a button using its exact title without quotes. For guidance, see [Buttons](alerts.md#Buttons).
 
 **If supported, include a text field only if you need people’s input to resolve the situation.** For example, you might need to present a secure text field to receive a password.
 
@@ -98,7 +98,7 @@ macOS automatically displays your app icon in an alert, but you can supply an al
 
 - Configure repeating alerts to let people suppress subsequent occurrences of the same alert.
 - Append a custom view if it’s necessary to provide additional information (for developer guidance, see [accessoryView](https://developer.apple.com/documentation/appkit/nsalert/accessoryview)).
-- Include a Help button that opens your help documentation (see [Help buttons](buttons#Help-buttons.md)).
+- Include a Help button that opens your help documentation (see [Help buttons](buttons.md#Help-buttons)).
 
 **Use a caution symbol sparingly.** Using a caution symbol like `exclamationmark.triangle` too frequently in your alerts diminishes its significance. Use the symbol only when extra attention is really needed, as when confirming an action that might result in unexpected loss of data. Don’t use the symbol for tasks whose only purpose is to overwrite or remove data, such as a save or empty trash.
 
@@ -108,7 +108,7 @@ When your app is running in the Shared Space, visionOS displays an alert in fron
 
 [Video: A video of an alert in the Freeform app running in the Shared Space in visionOS. When the video plays, someone chooses to permanently delete a recently deleted Freeform board. An alert then appears in front of the Freeform window to ask for confirmation.]
 
-If someone moves a window without dismissing its alert, the alert remains anchored to the window. If your app is running in a Full Space, the system displays the alert centered in the wearer’s [field of view](spatial-layout#Field-of-view.md).
+If someone moves a window without dismissing its alert, the alert remains anchored to the window. If your app is running in a Full Space, the system displays the alert centered in the wearer’s [field of view](spatial-layout.md#Field-of-view).
 
 [Video: A video of an alert in the Freeform app running in the Shared Space in visionOS. When the video plays, someone chooses to permanently delete a recently deleted Freeform board. An alert then appears in front of the Freeform window to ask for confirmation. The alert is not dismissed and remains anchored to the Freeform window as it’s moved around the Shared Space.]
 

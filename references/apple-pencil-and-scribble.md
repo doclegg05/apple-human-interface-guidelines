@@ -20,7 +20,7 @@ For details on Apple Pencil features and compatibility, see [Apple Pencil](https
 
 **Let people make a mark the moment Apple Pencil touches the screen**. You want the experience of putting Apple Pencil to screen to mirror the experience of putting a classic pencil to paper, so it’s essential to avoid requiring people to tap a button or enter a special mode before they can make a mark.
 
-**Help people express themselves by responding to the way they use Apple Pencil.** Apple Pencil may sense tilt (altitude), force (pressure), orientation (azimuth), and [barrel roll](apple-pencil-and-scribble#Barrel-roll.md). Use this information to affect the strokes Apple Pencil makes, such as by varying thickness and intensity. When responding to pressure, keep things simple and intuitive. For example, it feels natural to affect continuous properties — such as ink opacity or brush size — by varying the pressure.
+**Help people express themselves by responding to the way they use Apple Pencil.** Apple Pencil may sense tilt (altitude), force (pressure), orientation (azimuth), and [barrel roll](apple-pencil-and-scribble.md#Barrel-roll). Use this information to affect the strokes Apple Pencil makes, such as by varying thickness and intensity. When responding to pressure, keep things simple and intuitive. For example, it feels natural to affect continuous properties — such as ink opacity or brush size — by varying the pressure.
 
 [Image: An illustration of Apple Pencil tilted up from a horizontal line by 45 degrees.] Caption: Altitude
 
@@ -56,7 +56,7 @@ For details on Apple Pencil features and compatibility, see [Apple Pencil](https
 
 [Image: An X in a circle to indicate incorrect usage.]
 
-**Consider using hover to support relevant interactions close to where people are marking.** For example, you might respond to hover by displaying a contextual menu of tool sizes when people perform a gesture like [squeeze](apple-pencil-and-scribble#Squeeze.md) or press a modifier key on an attached keyboard. Revealing a menu near where people are marking lets them make choices without moving Apple Pencil or their hands to another part of the screen.
+**Consider using hover to support relevant interactions close to where people are marking.** For example, you might respond to hover by displaying a contextual menu of tool sizes when people perform a gesture like [squeeze](apple-pencil-and-scribble.md#Squeeze) or press a modifier key on an attached keyboard. Revealing a menu near where people are marking lets them make choices without moving Apple Pencil or their hands to another part of the screen.
 
 **Prefer showing hover previews for Apple Pencil, not for a pointing device.** Although a pointing device can also respond to hover gestures, it might be confusing to provide the same visual feedback for both devices. If it makes sense in your app, you can restrict your hover preview to Apple Pencil only. For developer guidance, see [Adopting hover support for Apple Pencil](https://developer.apple.com/documentation/uikit/adopting-hover-support-for-apple-pencil).
 

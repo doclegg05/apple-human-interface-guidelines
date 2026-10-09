@@ -60,9 +60,9 @@ Each view category is designed to support specific types of content and interact
 
 | Category | Purpose |
 |---|---|
-| [Tasks](carekit#Tasks.md) | Present tasks, like taking medication or doing physical therapy. Support logging of patient symptoms and other data. |
-| [Charts](carekit#Charts.md) | Display graphical data that can help people understand how their treatment is progressing. |
-| [Contact views](carekit#Contact-views.md) | Display contact information. Support communication through phone, message, and email, and link to a map of the contact’s location. |
+| [Tasks](carekit.md#Tasks) | Present tasks, like taking medication or doing physical therapy. Support logging of patient symptoms and other data. |
+| [Charts](carekit.md#Charts) | Display graphical data that can help people understand how their treatment is progressing. |
+| [Contact views](carekit.md#Contact-views) | Display contact information. Support communication through phone, message, and email, and link to a map of the contact’s location. |
 
 [Image: A screenshot of a CareKit app screen on iPhone that shows completed and uncompleted days, a medication task, a chart that compares the patient's nausea with their medication intake, and a logging task the patient can use to log each occurrence of nausea.] Caption: Tasks and charts
 

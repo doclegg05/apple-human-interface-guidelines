@@ -25,10 +25,10 @@ Live Activities start on iPhone or iPad and automatically appear in system locat
 
 Live Activities appear across the system in various locations like the *Dynamic Island* and the Lock Screen. It serves as a unified home for alerts and indicators of ongoing activity. Depending on the device and system location where a Live Activity appears, the system chooses a *presentation* style or a combination of styles to compose the appearance of your Live Activity. As a result, your Live Activity must support:
 
-- [Compact](live-activities#Compact.md)
-- [Minimal](live-activities#Minimal.md)
-- [Expanded](live-activities#Expanded.md)
-- [Lock Screen](live-activities#Lock-Screen.md)
+- [Compact](live-activities.md#Compact)
+- [Minimal](live-activities.md#Minimal)
+- [Expanded](live-activities.md#Expanded)
+- [Lock Screen](live-activities.md#Lock-Screen)
 
 In iOS and iPadOS, your Live Activity appears throughout the system using these presentations. Additionally, the system uses them to create default appearances for other contexts. For example, the compact presentation appears in the Dynamic Island on iPhone and consists of two elements that the system combines into a single view for Apple Watch and in CarPlay.
 
@@ -38,7 +38,7 @@ In the Dynamic Island, the system uses the compact presentation when only one Li
 
 [Image: An illustration that shows the compact leading and compact trailing views in the Dynamic Island.]
 
-For design guidance, see [Compact presentation](live-activities#Compact-presentation.md).
+For design guidance, see [Compact presentation](live-activities.md#Compact-presentation).
 
 ### Minimal
 
@@ -46,7 +46,7 @@ When multiple Live Activities are active, the system uses the minimal presentati
 
 [Image: An illustration that shows the minimal presentation in the Dynamic Island.]
 
-For design guidance, see [Minimal presentation](live-activities#Minimal-presentation.md).
+For design guidance, see [Minimal presentation](live-activities.md#Minimal-presentation).
 
 ### Expanded
 
@@ -54,7 +54,7 @@ When people touch and hold a Live Activity in compact or minimal presentation, t
 
 [Image: An illustration that shows the expanded view in the Dynamic Island.]
 
-For design guidance, see [Expanded presentation](live-activities#Expanded-presentation.md).
+For design guidance, see [Expanded presentation](live-activities.md#Expanded-presentation).
 
 ### Lock Screen
 
@@ -66,7 +66,7 @@ When you alert people about Live Activity updates on devices that don’t suppor
 
 [Image: A screenshot of a Live Activity that appears as a banner on the Home Screen of iPhone without Dynamic Island support.]
 
-For design guidance, see [Lock Screen presentation](live-activities#Lock-Screen-presentation.md).
+For design guidance, see [Lock Screen presentation](live-activities.md#Lock-Screen-presentation).
 
 ### StandBy
 
@@ -74,7 +74,7 @@ On iPhone in StandBy, your Live Activity appears in the minimal presentation. Wh
 
 [Image: An image that shows the Lock Screen presentation of a Live Activity in StandBy, scaled up by 2x, with a dotted border to indicate the 2x scaling of the Live Activity.]
 
-For design guidance, see [StandBy presentation](live-activities#StandBy-presentation.md).
+For design guidance, see [StandBy presentation](live-activities.md#StandBy-presentation).
 
 ## Best practices
 
@@ -104,7 +104,7 @@ For design guidance, see [StandBy presentation](live-activities#StandBy-presenta
 
 ### Creating Live Activity layouts
 
-**Adapt to different screen sizes and presentations.** Live Activities scale to fit various device screens. Create layouts and assets for various devices and scale factors, recognizing that the actual size on screen may vary or change. Ensure they look great everywhere by using the values in [Specifications](live-activities#Specifications.md) as guidance and providing appropriately sized content.
+**Adapt to different screen sizes and presentations.** Live Activities scale to fit various device screens. Create layouts and assets for various devices and scale factors, recognizing that the actual size on screen may vary or change. Ensure they look great everywhere by using the values in [Specifications](live-activities.md#Specifications) as guidance and providing appropriately sized content.
 
 **Adjust element size and placement for efficient use of space.** Create a layout that only uses the space you need to clearly display its content. Adapt the size and placement of elements in your Live Activity so they fit well together.
 
@@ -198,7 +198,7 @@ For developer guidance, see [Animating data updates in widgets and Live Activiti
 
 Your Live Activity needs to support all locations, devices, and their corresponding appearances. Because it appears across systems at different dimensions, create Live Activity layouts that best support each place they appear.
 
-**Start with the iPhone design, then refine it for other contexts.** Create standard designs for each presentation first. Then, depending on the functionality that your Live Activity provides, design additional custom layouts for specific contexts like iPhone in StandBy, CarPlay, or Apple Watch. For more information about custom layouts, refer to [StandBy](live-activities#StandBy.md), [CarPlay](live-activities#CarPlay.md), and [watchOS](live-activities#watchOS.md).
+**Start with the iPhone design, then refine it for other contexts.** Create standard designs for each presentation first. Then, depending on the functionality that your Live Activity provides, design additional custom layouts for specific contexts like iPhone in StandBy, CarPlay, or Apple Watch. For more information about custom layouts, refer to [StandBy](live-activities.md#StandBy), [CarPlay](live-activities.md#CarPlay), and [watchOS](live-activities.md#watchOS).
 
 ### Compact presentation
 
@@ -264,7 +264,7 @@ Your Live Activity needs to support all locations, devices, and their correspond
 
 In CarPlay, the system automatically combines the leading and trailing elements of the compact presentation into a single layout that appears on CarPlay Dashboard.
 
-Your Live Activity design applies to both CarPlay and Apple Watch, so design for both contexts. While Live Activities on Apple Watch can be interactive, the system deactivates interactive elements in CarPlay. For more information, refer to [watchOS](live-activities#watchOS.md) below. For developer guidance, refer to [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities).
+Your Live Activity design applies to both CarPlay and Apple Watch, so design for both contexts. While Live Activities on Apple Watch can be interactive, the system deactivates interactive elements in CarPlay. For more information, refer to [watchOS](live-activities.md#watchOS) below. For developer guidance, refer to [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities).
 
 **Consider creating a custom layout if your Live Activity would benefit from larger text or additional information.** Instead of using the default appearance in CarPlay, declare support for a [ActivityFamily.small](https://developer.apple.com/documentation/widgetkit/activityfamily/small) supplemental activity family.
 

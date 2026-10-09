@@ -7,7 +7,7 @@
 
 [Image: A stylized representation of a panel floating above a window. The image is tinted red to subtly reflect the red in the original six-color Apple logo.]
 
-In general, a panel has a less prominent appearance than an app’s [main window](windows#macOS-window-states.md). When the situation calls for it, a panel can also use a dark, translucent style to support a heads-up display (or *HUD*) experience.
+In general, a panel has a less prominent appearance than an app’s [main window](windows.md#macOS-window-states). When the situation calls for it, a panel can also use a dark, translucent style to support a heads-up display (or *HUD*) experience.
 
 When your app runs in other platforms, consider using a modal view to present supplementary content that’s relevant to the current task or selection. For guidance, see [Modality](modality.md).
 
@@ -23,7 +23,7 @@ When your app runs in other platforms, consider using a modal view to present su
 
 **Show and hide panels appropriately.** When your app becomes active, bring all of its open panels to the front, regardless of which window was active when the panel opened. When your app is inactive, hide all of its panels.
 
-**Avoid including panels in the Window menu’s documents list.** It’s fine to include commands for showing or hiding panels in the [Window menu](the-menu-bar#Window-menu.md), but panels aren’t documents or standard app windows, and they don’t belong in the Window menu’s list.
+**Avoid including panels in the Window menu’s documents list.** It’s fine to include commands for showing or hiding panels in the [Window menu](the-menu-bar.md#Window-menu), but panels aren’t documents or standard app windows, and they don’t belong in the Window menu’s list.
 
 **In general, avoid making a panel’s minimize button available.** People don’t usually need to minimize a panel, because it displays only when needed and disappears when the app is inactive.
 

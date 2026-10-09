@@ -14,7 +14,7 @@ People also expect to browse documents without first opening a document-based ap
 
 ## Creating and opening files
 
-**Use app menus and keyboard shortcuts to give people convenient ways to create and open documents.** In iPadOS and macOS, people expect to create new documents or open existing ones using familiar menu commands. When you provide commands like New or Open, iPadOS presents them in the shortcuts interface that displays when people hold the Command key on a connected hardware keyboard, and macOS presents them in the menu bar File menu. Regardless of the availability of keyboard shortcuts, include an Add (+) button to help people create a new document. In a macOS app, you put the add action in the File menu (for guidance, see [File menu](the-menu-bar#File-menu.md)).
+**Use app menus and keyboard shortcuts to give people convenient ways to create and open documents.** In iPadOS and macOS, people expect to create new documents or open existing ones using familiar menu commands. When you provide commands like New or Open, iPadOS presents them in the shortcuts interface that displays when people hold the Command key on a connected hardware keyboard, and macOS presents them in the menu bar File menu. Regardless of the availability of keyboard shortcuts, include an Add (+) button to help people create a new document. In a macOS app, you put the add action in the File menu (for guidance, see [File menu](the-menu-bar.md#File-menu)).
 
 **If your app requires a custom file browser, support people’s understanding of the platform’s file system.** People who are familiar with the Finder and Files apps already understand the basic layout of their device’s file system. Although you might want to show the most relevant part of the file system when your custom file browser opens — for example, a Documents or iCloud folder or the most recently selected location — let people use your browser to view the rest of the file system if they want.
 
@@ -104,7 +104,7 @@ For example, you can use a Finder Sync extension to:
 
 [Toolbars](toolbars.md)
 
-[File menu](the-menu-bar#File-menu.md)
+[File menu](the-menu-bar.md#File-menu)
 
 [Printing](printing.md)
 

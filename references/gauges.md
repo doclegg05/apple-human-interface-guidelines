@@ -15,7 +15,7 @@ A gauge uses a circular or linear path to represent a range of values, mapping t
 
 Circular and linear gauges in both standard and capacity styles are also available in a variant that’s visually similar to watchOS complications. This variant — called accessory — works well in iOS Lock Screen widgets and anywhere you want to echo the appearance of complications.
 
-> **Note:** In addition to gauges, macOS also supports level indicators, some of which have visual styles that are similar to gauges. For guidance, see [macOS](gauges#macOS.md).
+> **Note:** In addition to gauges, macOS also supports level indicators, some of which have visual styles that are similar to gauges. For guidance, see [macOS](gauges.md#macOS).
 
 ## Best practices
 

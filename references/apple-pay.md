@@ -28,7 +28,7 @@ For developer guidance, see [Apple Pay](https://developer.apple.com/documentatio
 
 **Use Apple Pay buttons only to initiate payment or, when appropriate, the Apple Pay setup process.** When people choose an Apple Pay button to make a purchase, but their device doesn’t have Apple Pay set up, they’re given the opportunity to set up Apple Pay. Don’t use Apple Pay buttons in any other way.
 
-**If you use a custom button to start the Apple Pay payment process, make sure your custom button doesn’t display “Apple Pay” or the Apple Pay logo.** In this scenario, you must let people know that you accept Apple Pay by displaying the [Apple Pay mark](apple-pay#Apple-Pay-mark.md) graphic or referencing Apple Pay in text on the same page that displays your payment button.
+**If you use a custom button to start the Apple Pay payment process, make sure your custom button doesn’t display “Apple Pay” or the Apple Pay logo.** In this scenario, you must let people know that you accept Apple Pay by displaying the [Apple Pay mark](apple-pay.md#Apple-Pay-mark) graphic or referencing Apple Pay in text on the same page that displays your payment button.
 
 [Image: An illustration that shows the correct arrangement of the Apple Pay logo above a custom button titled 'Order Now'.]
 
@@ -86,7 +86,7 @@ For developer guidance, see [Apple Pay](https://developer.apple.com/documentatio
 
 **For in-store pickup, consider letting people choose a pickup window that works for them.** You can use the shipping method to supply a range of dates and times from which people can choose.
 
-**Use line items to explain additional charges, discounts, pending costs, add-on donations, recurring payments, and future payments.** A line item includes a label and cost; a line item for a recurring payment can also include a frequency. Don’t use line items to show an itemized list of products that make up the purchase. For developer guidance, see [paymentSummaryItems](https://developer.apple.com/documentation/passkit/pkpaymentrequest/paymentsummaryitems); for guidance on donations, see [Supporting donations](apple-pay#Supporting-donations.md).
+**Use line items to explain additional charges, discounts, pending costs, add-on donations, recurring payments, and future payments.** A line item includes a label and cost; a line item for a recurring payment can also include a frequency. Don’t use line items to show an itemized list of products that make up the purchase. For developer guidance, see [paymentSummaryItems](https://developer.apple.com/documentation/passkit/pkpaymentrequest/paymentsummaryitems); for guidance on donations, see [Supporting donations](apple-pay.md#Supporting-donations).
 
 **iOS**
 
@@ -104,7 +104,7 @@ For developer guidance, see [Apple Pay](https://developer.apple.com/documentatio
 
 **Clearly disclose when people may incur additional costs after payment authorization.** In some cases, you may not know the total cost at checkout time. For example, the price of a car ride based on distance or time might change after checkout. Or, someone might want to add a tip after they receive their delivery. In situations like these, and when local regulations allow, you can provide a clear explanation in the payment sheet and a subtotal marked as Amount Pending. If you’re preauthorizing a specific amount, be sure the payment sheet accurately reflects this information.
 
-**Handle data entry and payment errors gracefully.** If an error occurs during checkout, help people resolve it quickly so they can complete their transaction. For related guidance, see [Data validation errors](apple-pay#Data-validation-errors.md).
+**Handle data entry and payment errors gracefully.** If an error occurs during checkout, help people resolve it quickly so they can complete their transaction. For related guidance, see [Data validation errors](apple-pay.md#Data-validation-errors).
 
 **Defer to the payment sheet for progress information during payment.** The payment sheet already presents loading states and progress clearly. Additional spinners or progress indicators can create confusion about the state of the transaction.
 
@@ -208,7 +208,7 @@ Apple Pay buttons come in several types and styles to fit different contexts and
 
 **Always use the Apple-provided API to display Apple Pay buttons.** Unlike button graphics, API-generated buttons always have the correct appearance and are localized automatically. Don’t create custom Apple Pay button designs or try to replicate the Apple-provided ones. For developer guidance, see [PKPaymentButtonType](https://developer.apple.com/documentation/passkit/pkpaymentbuttontype) and [PKPaymentButtonStyle](https://developer.apple.com/documentation/passkit/pkpaymentbuttonstyle) (iOS and macOS), [WKInterfacePaymentButton](https://developer.apple.com/documentation/watchkit/wkinterfacepaymentbutton) (watchOS), and [Apple Pay on the Web](https://developer.apple.com/documentation/applepayontheweb) (web).
 
-> **Tip:** Use the [Apple Pay mark](apple-pay#Apple-Pay-mark.md) graphic to communicate the availability of Apple Pay wherever you highlight payment options.
+> **Tip:** Use the [Apple Pay mark](apple-pay.md#Apple-Pay-mark) graphic to communicate the availability of Apple Pay wherever you highlight payment options.
 
 ### Button types
 
@@ -347,7 +347,7 @@ Use the following values for guidance.
 
 ### Apple Pay mark
 
-Use the Apple Pay mark graphic to show that Apple Pay is an available payment option when showing other available payment options. The Apple Pay mark isn’t a button; if you need an Apple Pay button, choose one of the buttons described in [Button types](apple-pay#Button-types.md). For design guidance related to showing Apple Pay as a payment option, see [Offering Apple Pay](apple-pay#Offering-Apple-Pay.md).
+Use the Apple Pay mark graphic to show that Apple Pay is an available payment option when showing other available payment options. The Apple Pay mark isn’t a button; if you need an Apple Pay button, choose one of the buttons described in [Button types](apple-pay.md#Button-types). For design guidance related to showing Apple Pay as a payment option, see [Offering Apple Pay](apple-pay.md#Offering-Apple-Pay).
 
 [Image: A row of four credit card logos, all of which are the same size and shape. The leftmost logo is the Apple Pay mark.]
 
@@ -377,7 +377,7 @@ You can use plain text to promote Apple Pay and indicate that Apple Pay is a pay
 
 **Don’t translate *Apple Pay* or any other Apple trademark.** Always use Apple trademarks in English, even when they appear within non-English text.
 
-**In a payment selection context, you can display a text-only description of Apple Pay only when all payment options have text-only descriptions.** If any other payment option description includes an icon or logo, you must use the Apple Pay mark graphic as described in [Offering Apple Pay](apple-pay#Offering-Apple-Pay.md).
+**In a payment selection context, you can display a text-only description of Apple Pay only when all payment options have text-only descriptions.** If any other payment option description includes an icon or logo, you must use the Apple Pay mark graphic as described in [Offering Apple Pay](apple-pay.md#Offering-Apple-Pay).
 
 **When promoting Apple Pay in an app, follow App Store guidelines.** For specific guidance, see the [App Store marketing guidelines](https://developer.apple.com/app-store/marketing/guidelines/).
 

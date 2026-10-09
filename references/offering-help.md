@@ -90,7 +90,7 @@ A *tooltip* (called a *help tag* in user documentation) displays a small, transi
 
 [Writing](writing.md)
 
-[Help menu](the-menu-bar#Help-menu.md)
+[Help menu](the-menu-bar.md#Help-menu)
 
 #### Developer documentation
 

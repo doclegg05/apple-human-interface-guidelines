@@ -237,7 +237,7 @@ For an NFC-integrated App Clip Code, you can use the following call to action:
 
 For more information, see [NFC](nfc.md).
 
-**Adhere to [Guidelines for Using Apple Trademarks](https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html) when referring to your App Clip and App Clip Codes.** For example, Apple trademarks can’t appear in your app name or images, always use title case when using the terms App Clips or App Clip Code, and so on. For additional information, see [Legal requirements](app-clips#Legal-requirements.md).
+**Adhere to [Guidelines for Using Apple Trademarks](https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html) when referring to your App Clip and App Clip Codes.** For example, Apple trademarks can’t appear in your app name or images, always use title case when using the terms App Clips or App Clip Code, and so on. For additional information, see [Legal requirements](app-clips.md#Legal-requirements).
 
 ### Customizing your App Clip Code
 

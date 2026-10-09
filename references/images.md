@@ -28,7 +28,7 @@ When creating bitmap images, you specify a *scale factor* which determines the r
 |---|---|
 | iPadOS, watchOS | @2x |
 | iOS | @2x and @3x |
-| visionOS | @2x or higher (see [visionOS](images#visionOS.md)) |
+| visionOS | @2x or higher (see [visionOS](images.md#visionOS)) |
 | macOS, tvOS | @1x and @2x |
 
 **In general, design images at the lowest resolution and scale them up to create high-resolution assets.** When you use resizable vectorized shapes, you might want to position control points at whole values so that they’re cleanly aligned at 1x. This positioning allows the points to remain cleanly aligned to the raster grid at higher resolutions, because 2x and 3x are multiples of 1x.
@@ -47,7 +47,7 @@ As you create different types of images, consider the following recommendations.
 
 ## Best practices
 
-**Include a color profile with each image.** Color profiles help ensure that your app’s colors appear as intended on different displays. For guidance, see [Color management](color#Color-management.md).
+**Include a color profile with each image.** Color profiles help ensure that your app’s colors appear as intended on different displays. For guidance, see [Color management](color.md#Color-management).
 
 **Always test images on a range of actual devices.** An image that looks great at design time may appear pixelated, stretched, or compressed when viewed on various devices.
 
@@ -71,7 +71,7 @@ Layered images are required to support the parallax effect.
 
 A *layered image* consists of two to five distinct layers that come together to form a single image. The separation between layers, along with use of transparency, creates a feeling of depth. As someone interacts with an image, layers closer to the surface elevate and scale, overlapping lower layers farther back and producing a 3D effect.
 
-> **Important:** Your tvOS [app icon](app-icons#tvOS.md) must use a layered image. For other focusable images in your app, including [Top Shelf](top-shelf.md) images, layered images are strongly encouraged, but optional.
+> **Important:** Your tvOS [app icon](app-icons.md#tvOS) must use a layered image. For other focusable images in your app, including [Top Shelf](top-shelf.md) images, layered images are strongly encouraged, but optional.
 
 You can embed layered images in your app or retrieve them from a content server at runtime. For guidance on adding layered images to your app, see the [Parallax Previewer User Guide](https://help.apple.com/itc/parallaxpreviewer/).
 
@@ -95,7 +95,7 @@ You can embed layered images in your app or retrieve them from a content server 
 
 In visionOS, people can view images at a much larger range of sizes than in any other platform, and the system dynamically scales the image resolution to match the current size. Because you can position images at specific angles within someone’s surroundings, image pixels may not line up 1:1 with screen pixels.
 
-**Create a layered app icon.** App icons in visionOS are composed of two to three layers that provide the appearance of depth by moving at subtly different rates when the icon is in focus. For guidance, see [Layer design](app-icons#Layer-design.md).
+**Create a layered app icon.** App icons in visionOS are composed of two to three layers that provide the appearance of depth by moving at subtly different rates when the icon is in focus. For guidance, see [Layer design](app-icons.md#Layer-design).
 
 **Prefer vector-based art for 2D images.** Avoid bitmap content because it might not look good when the system scales it up. If you use Core Animation layers, see [Drawing sharp layer-based content in visionOS](https://developer.apple.com/documentation/visionos/drawing-sharp-layer-based-content) for developer guidance.
 

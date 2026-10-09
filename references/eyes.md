@@ -8,7 +8,7 @@
 
 [Image: A sketch of a human eye. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.]
 
-When people look at an interactive element, visionOS highlights it, providing visual feedback that helps them confirm the item is one they want. The visual feedback, or *hover effect*, shows people that they can use an [indirect gesture](gestures#visionOS.md) like tap to interact with the element.
+When people look at an interactive element, visionOS highlights it, providing visual feedback that helps them confirm the item is one they want. The visual feedback, or *hover effect*, shows people that they can use an [indirect gesture](gestures.md#visionOS) like tap to interact with the element.
 
 [Video: A recording of the Settings app showing the hover effect appear on several individual settings in turn as someone's eyes move from one to another.]
 
@@ -22,7 +22,7 @@ visionOS also supports *focus effects* that help people navigate apps and the sy
 
 **Always give people multiple ways to interact with your app.** Design your app to support the accessibility features people use to personalize the ways they interact with their devices. For guidance, see [Accessibility](accessibility.md).
 
-**Design for visual comfort.** Help people accomplish their primary task by making sure that the objects they need to use are within their [field of view](spatial-layout#Field-of-view.md). When your app or game is running in the Shared Space or a Full Space, the system automatically places the first window or volume people open in a convenient location in front of them. While running in a Full Space, your app or game can also request access to information about a person’s head pose to help you place 3D content appropriately. In all cases, you can improve the visual comfort of your experience when you avoid requiring people to make multiple quick eye adjustments, either over a large area or through multiple levels of depth. For guidance, see [Depth](spatial-layout#Depth.md).
+**Design for visual comfort.** Help people accomplish their primary task by making sure that the objects they need to use are within their [field of view](spatial-layout.md#Field-of-view). When your app or game is running in the Shared Space or a Full Space, the system automatically places the first window or volume people open in a convenient location in front of them. While running in a Full Space, your app or game can also request access to information about a person’s head pose to help you place 3D content appropriately. In all cases, you can improve the visual comfort of your experience when you avoid requiring people to make multiple quick eye adjustments, either over a large area or through multiple levels of depth. For guidance, see [Depth](spatial-layout.md#Depth).
 
 **Place content at a comfortable viewing distance.** For example, to help people remain comfortable while they read or engage with content over time, aim to place it at least one meter away. In general, you don’t want to place content very close to people unless they’ll view or interact with it for only a little while.
 

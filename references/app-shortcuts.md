@@ -8,7 +8,7 @@
 
 [Image: A stylized representation of the Notes app appearing as the result in the Top Hit area of Spotlight, along with App Shortcuts for creating a new note and opening two other recent notes. The image is tinted red to subtly reflect the red in the original six-color Apple logo.]
 
-People can initiate App Shortcuts using features like Siri, Spotlight, and the Shortcuts app; using hardware features like the [Action button](action-button.md) on iPhone or Apple Watch; or by [squeezing](apple-pencil-and-scribble#Squeeze.md) Apple Pencil.
+People can initiate App Shortcuts using features like Siri, Spotlight, and the Shortcuts app; using hardware features like the [Action button](action-button.md) on iPhone or Apple Watch; or by [squeezing](apple-pencil-and-scribble.md#Squeeze) Apple Pencil.
 
 Because App Shortcuts are part of your app, they are available immediately when installation finishes. For example, a journaling app could offer an App Shortcut for making a new journal entry that’s available before a person opens the app for the first time. Once someone starts using your app, its App Shortcuts can reflect their choices, like those from FaceTime for calling recent contacts.
 

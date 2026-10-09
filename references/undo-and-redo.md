@@ -43,9 +43,9 @@ People expect undo and redo to let them reverse their recent actions, so they’
 
 [Pointing devices](pointing-devices.md)
 
-[Standard keyboard shortcuts](keyboards#Standard-keyboard-shortcuts.md)
+[Standard keyboard shortcuts](keyboards.md#Standard-keyboard-shortcuts)
 
-[Edit menu](the-menu-bar#Edit-menu.md)
+[Edit menu](the-menu-bar.md#Edit-menu)
 
 #### Developer documentation
 

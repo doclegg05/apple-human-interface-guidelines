@@ -57,7 +57,7 @@ For developer guidance, see [HKActivityRingView](https://developer.apple.com/doc
 
 ## Apple Health icon
 
-The Apple Health icon shows that an app works with HealthKit and the Health app. The following guidelines help you use the icon correctly. To learn how to refer to HealthKit and the Health app in copy and UI text, see [Editorial guidelines](healthkit#Editorial-guidelines.md); to learn about using the “Works with Apple Health” badge in your marketing communications, see [Works with Apple Health](https://developer.apple.com/health-fitness/works-with-apple-health/).
+The Apple Health icon shows that an app works with HealthKit and the Health app. The following guidelines help you use the icon correctly. To learn how to refer to HealthKit and the Health app in copy and UI text, see [Editorial guidelines](healthkit.md#Editorial-guidelines); to learn about using the “Works with Apple Health” badge in your marketing communications, see [Works with Apple Health](https://developer.apple.com/health-fitness/works-with-apple-health/).
 
 [Image: A screenshot of an onboarding screen for an app named Eating Habits, which displays the Apple Health icon and text that describes how syncing health data from Eating Habits can help people manage their health. At the bottom of the screen is a Sync Health Data button and a Skip for Now button.]
 
@@ -73,9 +73,9 @@ The Apple Health icon shows that an app works with HealthKit and the Health app.
 
 **Maintain a minimum clear space around the Apple Health icon of 1/10 of its height.** Don’t composite the icon onto another graphic element.
 
-**Don’t use the Apple Health icon within text or as a replacement for the terms *Health*, *Apple Health*, or *HealthKit*.** See [Editorial guidelines](healthkit#Editorial-guidelines.md) to learn how to properly reference the Health app and HealthKit in text.
+**Don’t use the Apple Health icon within text or as a replacement for the terms *Health*, *Apple Health*, or *HealthKit*.** See [Editorial guidelines](healthkit.md#Editorial-guidelines) to learn how to properly reference the Health app and HealthKit in text.
 
-**Don’t display Health app images or screenshots.** Like all Apple images, these designs are copyrighted and can’t appear in your app or marketing materials. You can include an Activity ring element in your app to display Move, Exercise, and Stand progress; for guidance, see [Activity rings](healthkit#Activity-rings.md).
+**Don’t display Health app images or screenshots.** Like all Apple images, these designs are copyrighted and can’t appear in your app or marketing materials. You can include an Activity ring element in your app to display Move, Exercise, and Stand progress; for guidance, see [Activity rings](healthkit.md#Activity-rings).
 
 ## Editorial guidelines
 

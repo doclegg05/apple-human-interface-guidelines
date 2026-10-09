@@ -12,7 +12,7 @@ A sidebar requires a large amount of vertical and horizontal space. When space i
 
 ## Best practices
 
-**Extend visually rich content beneath the sidebar.** In iOS, iPadOS, and macOS, as with other controls such as toolbars and tab bars, sidebars can float above content in the [Liquid Glass](materials#Liquid-Glass.md) layer. To reinforce the separation, you can extend content beneath the sidebar either by letting it horizontally scroll or by applying a *background extension effect*. A background extension effect mirrors adjacent content to give the impression of stretching it under the sidebar. For developer guidance, see [backgroundExtensionEffect()](https://developer.apple.com/documentation/swiftui/view/backgroundextensioneffect()).
+**Extend visually rich content beneath the sidebar.** In iOS, iPadOS, and macOS, as with other controls such as toolbars and tab bars, sidebars can float above content in the [Liquid Glass](materials.md#Liquid-Glass) layer. To reinforce the separation, you can extend content beneath the sidebar either by letting it horizontally scroll or by applying a *background extension effect*. A background extension effect mirrors adjacent content to give the impression of stretching it under the sidebar. For developer guidance, see [backgroundExtensionEffect()](https://developer.apple.com/documentation/swiftui/view/backgroundextensioneffect()).
 
 [Image: A screenshot of the leading side of an app on iPad. An image spans the upper part of the window, stopping at the edge of the sidebar.]
 
@@ -26,7 +26,7 @@ A sidebar requires a large amount of vertical and horizontal space. When space i
 
 **Group hierarchy with disclosure controls if your app has a lot of content.** Using [disclosure controls](disclosure-controls.md) helps keep the sidebar’s vertical space to a manageable level.
 
-**Consider using familiar symbols to represent items in the sidebar.** [SF Symbols](sf-symbols.md) provides a wide range of customizable symbols you can use to represent items in your app. If you need to use a custom icon, consider creating a [custom symbol](sf-symbols#Custom-symbols.md) rather than using a bitmap image. Download the SF Symbols app from [Apple Design Resources](https://developer.apple.com/design/resources/#sf-symbols).
+**Consider using familiar symbols to represent items in the sidebar.** [SF Symbols](sf-symbols.md) provides a wide range of customizable symbols you can use to represent items in your app. If you need to use a custom icon, consider creating a [custom symbol](sf-symbols.md#Custom-symbols) rather than using a bitmap image. Download the SF Symbols app from [Apple Design Resources](https://developer.apple.com/design/resources/#sf-symbols).
 
 **Consider letting people hide the sidebar.** People sometimes want to hide the sidebar to create more room for content details or to reduce distraction. When possible, let people hide and show the sidebar using the platform-specific interactions they already know. For example, in iPadOS, people expect to use the built-in edge swipe gesture; in macOS, you can include a show/hide button or add Show Sidebar and Hide Sidebar commands to your app’s View menu. In visionOS, a window typically expands to accommodate a sidebar, so people rarely need to hide it. Avoid hiding the sidebar by default to ensure that it remains discoverable.
 
@@ -34,7 +34,7 @@ A sidebar requires a large amount of vertical and horizontal space. When space i
 
 **If you need to include two levels of hierarchy in a sidebar, use succinct, descriptive labels to title each group.** To help keep labels short, omit unnecessary words.
 
-**Make sure any sidebar icon colors you choose serve a clear purpose.** By default, sidebar icons use your app’s [accent color](color#App-accent-colors.md). In macOS, people can change the system accent color, which applies to all apps. When they do this, they expect all sidebar icons to appear in that color, so make sure your sidebar icons display the color people choose. However, if you use them sparingly, fixed colors can help clarify the meaning of an icon or draw attention to it. For example, the VIP icon in Mail uses a yellow color to set it apart from other sidebar icons, providing a visual cue about its importance.
+**Make sure any sidebar icon colors you choose serve a clear purpose.** By default, sidebar icons use your app’s [accent color](color.md#App-accent-colors). In macOS, people can change the system accent color, which applies to all apps. When they do this, they expect all sidebar icons to appear in that color, so make sure your sidebar icons display the color people choose. However, if you use them sparingly, fixed colors can help clarify the meaning of an icon or draw attention to it. For example, the VIP icon in Mail uses a yellow color to set it apart from other sidebar icons, providing a visual cue about its importance.
 
 ## Platform considerations
 

@@ -161,10 +161,10 @@ It’s inevitable that your app will make mistakes. Although people may not expe
 
 There are several machine learning patterns that can help you address mistakes:
 
-- [Limitations](machine-learning#Limitations.md) help you set people’s expectations about the accuracy of your suggestions.
-- [Corrections](machine-learning#Corrections.md) give people a way to be successful even when your results are wrong.
-- [Attribution](machine-learning#Attribution.md) gives people insight into where suggestions come from, which can help them understand mistakes.
-- [Confidence](machine-learning#Confidence.md) helps you gauge the quality of your results, which can impact how you present them.
+- [Limitations](machine-learning.md#Limitations) help you set people’s expectations about the accuracy of your suggestions.
+- [Corrections](machine-learning.md#Corrections) give people a way to be successful even when your results are wrong.
+- [Attribution](machine-learning.md#Attribution) gives people insight into where suggestions come from, which can help them understand mistakes.
+- [Confidence](machine-learning.md#Confidence) helps you gauge the quality of your results, which can impact how you present them.
 - Feedback — both [explicit](#Explicit-feedback) and [implicit](#Implicit-feedback) — lets people tell you about mistakes that you might not be aware of.
 
 **Understand the significance of a mistake’s consequences.** For example, incorrect keyboard suggestions might annoy people, but suggesting a travel route that results in a missed flight is a serious inconvenience. Show empathy by providing corrective actions or tools that match the seriousness of the mistake.

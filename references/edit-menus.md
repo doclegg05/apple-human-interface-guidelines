@@ -14,8 +14,8 @@ Edit menus can look and behave slightly differently in different platforms.
 
 - In iOS, the edit menu displays commands in a compact, horizontal list that appears when people touch and hold or double-tap to select content in a view. People can tap a chevron on the trailing edge to expand it into a [context menu](context-menus.md).
 - In iPadOS, the edit menu looks different depending on how people reveal it. When people use touch interactions to reveal the menu, it uses the compact, horizontal appearance. In contrast, when people use a keyboard or pointing device to reveal it, the edit menu opens directly in a context menu.
-- In macOS, people can access editing commands in a context menu they can reveal while in an editing task, as well as through the app’s [Edit menu](the-menu-bar#Edit-menu.md) in the menu bar.
-- In visionOS, people use the standard [pinch and hold](gestures#Standard-gestures.md) gesture to open the edit menu as a horizontal bar, or they can open it in a context menu.
+- In macOS, people can access editing commands in a context menu they can reveal while in an editing task, as well as through the app’s [Edit menu](the-menu-bar.md#Edit-menu) in the menu bar.
+- In visionOS, people use the standard [pinch and hold](gestures.md#Standard-gestures) gesture to open the edit menu as a horizontal bar, or they can open it in a context menu.
 
 Editing content is rare in tvOS and watchOS experiences, so the system doesn’t provide an edit menu in these platforms.
 
@@ -47,13 +47,13 @@ Editing content is rare in tvOS and watchOS experiences, so the system doesn’t
 
 ### iOS, iPadOS
 
-**Ensure your edit menu works well in both styles.** The system displays the compact, horizontal style when people use Multi-Touch gestures to reveal the edit menu, and the vertical style when people use a keyboard or pointing device to reveal it. For guidance using the vertical menu layout, see [Menus > iOS, iPadOS](menus#iOS-iPadOS.md).
+**Ensure your edit menu works well in both styles.** The system displays the compact, horizontal style when people use Multi-Touch gestures to reveal the edit menu, and the vertical style when people use a keyboard or pointing device to reveal it. For guidance using the vertical menu layout, see [Menus > iOS, iPadOS](menus.md#iOS-iPadOS).
 
 **Adjust an edit menu’s placement, if necessary.** Depending on available space, the default menu position is above or below the insertion point or selection. The system also displays a visual indicator that points to the targeted content. Although you can’t change the shape of the menu or its pointer, you can change the menu’s position. For example, you might need to move the menu to prevent it from covering important content or parts of your interface.
 
 ### macOS
 
-To learn about the order of items in a macOS app’s Edit menu, see [Edit menu](the-menu-bar#Edit-menu.md).
+To learn about the order of items in a macOS app’s Edit menu, see [Edit menu](the-menu-bar.md#Edit-menu).
 
 ## Resources
 

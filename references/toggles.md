@@ -8,7 +8,7 @@
 
 [Image: A stylized representation of two labeled switch controls. The image is tinted red to subtly reflect the red in the original six-color Apple logo.]
 
-A toggle can have various styles, such as switch and checkbox, and different platforms can use these styles in different ways. For guidance, see [Platform considerations](toggles#Platform-considerations.md).
+A toggle can have various styles, such as switch and checkbox, and different platforms can use these styles in different ways. For guidance, see [Platform considerations](toggles.md#Platform-considerations).
 
 In addition to toggles, all platforms also support buttons that behave like toggles by using a different appearance for each state. For developer guidance, see [ToggleStyle](https://developer.apple.com/documentation/swiftui/togglestyle).
 

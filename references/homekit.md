@@ -28,7 +28,7 @@ It’s crucial for your app to use the terminology and object model that HomeKit
 
 In the HomeKit model, the [home](#Homes) object is the root of a hierarchy that contains all other objects, such as [rooms](#Rooms), [accessories](#Accessories-services-and-characteristics), and [zones](#Zones). When there’s more than one home, each home is the root of a different hierarchy.
 
-**Acknowledge the hierarchical model that HomeKit uses.** Even if your app doesn’t organize accessories by rooms and zones in its UI, it’s useful to reference the HomeKit model when helping people set up or control their accessories. People need to know where accessories are located so they can use Siri and HomePod to control them by speaking commands like “Siri, turn on the lights upstairs,” or “It’s dark in here.” For more guidance, see [Siri interactions](homekit#Siri-interactions.md).
+**Acknowledge the hierarchical model that HomeKit uses.** Even if your app doesn’t organize accessories by rooms and zones in its UI, it’s useful to reference the HomeKit model when helping people set up or control their accessories. People need to know where accessories are located so they can use Siri and HomePod to control them by speaking commands like “Siri, turn on the lights upstairs,” or “It’s dark in here.” For more guidance, see [Siri interactions](homekit.md#Siri-interactions).
 
 **Make it easy for people to find an accessory’s related HomeKit details.** If your app’s organization is based on accessories, don’t hide other HomeKit information, such as an accessory’s zone or room, in a hard-to-discover settings screen. Instead, consider making the related HomeKit information easily available in an accessory detail view.
 
@@ -48,7 +48,7 @@ A *room* represents a physical room in a home. Rooms don’t have attributes lik
 
 The term *accessory* represents a physical, connected home accessory, like a ceiling fan, lamp, lock, or camera. HomeKit uses *category* to represent a type of accessory, such as thermostat, fan, or light. Typically, an accessory manufacturer assigns each accessory to a category, but your app can help people make this assignment if necessary. For example, a switch that’s connected to a fan or a lamp needs to be assigned to the same category as the accessory it controls.
 
-A controllable feature of an accessory, such as the switch on a connected light, is known as a *service*. Some accessories offer multiple services. For example, a connected garage door might let people control the light and the door separately, or a connected outlet might support separate control of the top outlet and the bottom outlet. Apps don’t use the word *service* in the UI; instead, they use names that describe the service, such as *garage door opener* and *ceiling fan light*. When people use Siri to control the accessories in their homes, they speak the service name, not the accessory name. For more guidance on naming, see [Help people choose useful names](homekit#Help-people-choose-useful-names.md).
+A controllable feature of an accessory, such as the switch on a connected light, is known as a *service*. Some accessories offer multiple services. For example, a connected garage door might let people control the light and the door separately, or a connected outlet might support separate control of the top outlet and the bottom outlet. Apps don’t use the word *service* in the UI; instead, they use names that describe the service, such as *garage door opener* and *ceiling fan light*. When people use Siri to control the accessories in their homes, they speak the service name, not the accessory name. For more guidance on naming, see [Help people choose useful names](homekit.md#Help-people-choose-useful-names).
 
 A *characteristic* is a controllable attribute of a service. For example, in a ceiling fan, the fan service might have a speed characteristic and the light service might have a brightness characteristic. Apps don’t use the word *characteristic* in the UI; instead, they use terms that describe the attribute, such as *speed* and *brightness*.
 
@@ -151,7 +151,7 @@ To illustrate the power and flexibility of Siri commands, here are some examples
 
 Your app is a great place to help people appreciate the unique functionality of your accessory. For example, an app for a light that displays different colors could help people create HomeKit scenes using colors imported from their photos.
 
-**Be clear about what people can do in your app and when they might want to use the Home app.** For example, if your app supports only lights, consider encouraging people to create a “Movie Time” scene that not only dims the lights, but also closes the shades, and turns on the TV to a specific input. To do this, first guide people to set up a scene that includes only your accessory’s actions — in this scenario, dimming the lights. Then, your app can suggest that people open the Home app to add their HomeKit-compatible shades and TV to the scene you helped them create. For guidance on how to refer to the Home app, see [Referring to HomeKit](homekit#Referring-to-HomeKit.md).
+**Be clear about what people can do in your app and when they might want to use the Home app.** For example, if your app supports only lights, consider encouraging people to create a “Movie Time” scene that not only dims the lights, but also closes the shades, and turns on the TV to a specific input. To do this, first guide people to set up a scene that includes only your accessory’s actions — in this scenario, dimming the lights. Then, your app can suggest that people open the Home app to add their HomeKit-compatible shades and TV to the scene you helped them create. For guidance on how to refer to the Home app, see [Referring to HomeKit](homekit.md#Referring-to-HomeKit).
 
 **Defer to HomeKit if your database differs from the HomeKit database.** Give people a seamless experience by automatically reflecting changes made in the Home app or in other third-party HomeKit apps. If you must ask people to manage conflicts in your app, present the conflict visually so that they have a clear picture of the choice they need to confirm. For example, if someone changes an accessory’s service name in the Home app, your app can detect this change and could show both names side by side to confirm that the person wants to use the new name in your app, too.
 
@@ -213,7 +213,7 @@ Use a custom color when other technology icons appear in the same color.
 
 [Image: An X in a circle to indicate incorrect usage.]
 
-**Don’t use the HomeKit icon within text or as a replacement for the word HomeKit.** See [Referring to HomeKit](homekit#Referring-to-HomeKit.md) to learn how to properly reference HomeKit in text.
+**Don’t use the HomeKit icon within text or as a replacement for the word HomeKit.** See [Referring to HomeKit](homekit.md#Referring-to-HomeKit) to learn how to properly reference HomeKit in text.
 
 [Image: The first in a series of images showing examples of the HomeKit icon when used in text. In this example, the icon correctly appears first in the line, and then the text 'Lights set with HomeKit.']
 
@@ -227,7 +227,7 @@ Use a custom color when other technology icons appear in the same color.
 
 [Image: An X in a circle to indicate incorrect usage.]
 
-**Pair the icon with the name *HomeKit* correctly.** You can show the name below or beside the icon if other technologies are referenced in this way. Use the same font that’s used on the rest of your layout. For related guidance, see [Referring to HomeKit](homekit#Referring-to-HomeKit.md).
+**Pair the icon with the name *HomeKit* correctly.** You can show the name below or beside the icon if other technologies are referenced in this way. Use the same font that’s used on the rest of your layout. For related guidance, see [Referring to HomeKit](homekit.md#Referring-to-HomeKit).
 
 [Image: An illustration of a view containing setup information within an app. The top of the view includes the title 'Setup' above a divider line. Three rows with icons, text, and disclosure buttons for displaying additional information appear below the divider. The first row includes the HomeKit icon followed by the word 'HomeKit'. The other  two rows display dashed squares representing other app icons, each followed by the word 'Name'.] Caption: Using the icon and name in setup or instructional content
 

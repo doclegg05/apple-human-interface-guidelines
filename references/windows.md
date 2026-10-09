@@ -23,7 +23,7 @@ For guidance laying out content within a window on any platform, see [Layout](la
 
 **Choose the right moment to open a new window.** Opening content in a separate window is great for helping people multitask or preserve context. For example, Mail opens a new window whenever someone selects the Compose action, so both the new message and the existing email are visible at the same time. However, opening new windows excessively creates clutter and can make navigating your app more confusing. Avoid opening new windows as default behavior unless it makes sense for your app.
 
-**Consider providing the option to view content in a new window.** While it’s best to avoid opening new windows as default behavior unless it benefits your user experience, it’s also great to give people the flexibility of viewing content in multiple ways. Consider letting people view content in a new window using a command in a [context menu](context-menus.md) or in the [File menu](the-menu-bar#File-menu.md). For developer guidance, see [OpenWindowAction](https://developer.apple.com/documentation/swiftui/openwindowaction).
+**Consider providing the option to view content in a new window.** While it’s best to avoid opening new windows as default behavior unless it benefits your user experience, it’s also great to give people the flexibility of viewing content in multiple ways. Consider letting people view content in a new window using a command in a [context menu](context-menus.md) or in the [File menu](the-menu-bar.md#File-menu). For developer guidance, see [OpenWindowAction](https://developer.apple.com/documentation/swiftui/openwindowaction).
 
 **Avoid creating custom window UI.** System-provided windows look and behave in a way that people understand and recognize. Avoid making custom window frames or controls, and don’t try to replicate the system-provided appearance. Doing so without perfectly matching the system’s look and behavior can make your app feel broken.
 
@@ -98,11 +98,11 @@ The system defines the initial position of the first window or volume people ope
 
 #### visionOS windows
 
-The default window style consists of an upright plane that uses an unmodifiable background [material](materials.md) called *glass* and includes a close button, window bar, and resize controls that let people close, move, and resize the window. A window can also include a Share button, [tab bar](tab-bars.md), [toolbar](toolbars.md), and one or more [ornaments](ornaments.md). By default, visionOS uses dynamic [scale](spatial-layout#Scale.md) to help a window’s size appear to remain consistent regardless of its proximity to the viewer. For developer guidance, see [DefaultWindowStyle](https://developer.apple.com/documentation/swiftui/defaultwindowstyle).
+The default window style consists of an upright plane that uses an unmodifiable background [material](materials.md) called *glass* and includes a close button, window bar, and resize controls that let people close, move, and resize the window. A window can also include a Share button, [tab bar](tab-bars.md), [toolbar](toolbars.md), and one or more [ornaments](ornaments.md). By default, visionOS uses dynamic [scale](spatial-layout.md#Scale) to help a window’s size appear to remain consistent regardless of its proximity to the viewer. For developer guidance, see [DefaultWindowStyle](https://developer.apple.com/documentation/swiftui/defaultwindowstyle).
 
 [Image: A screenshot of a window for an app named 'Hello World' in visionOS. The window includes text and buttons for entering different experiences.] Caption: A window
 
-**Prefer using a window to present a familiar interface and to support familiar tasks.** Help people feel at home in your app by displaying an interface they’re already comfortable with, reserving more [immersive experiences](immersive-experiences.md) for the meaningful content and activities you offer. If you want to showcase bounded 3D content like a game board, consider using a [volume](windows#visionOS-volumes.md).
+**Prefer using a window to present a familiar interface and to support familiar tasks.** Help people feel at home in your app by displaying an interface they’re already comfortable with, reserving more [immersive experiences](immersive-experiences.md) for the meaningful content and activities you offer. If you want to showcase bounded 3D content like a game board, consider using a [volume](windows.md#visionOS-volumes).
 
 **Retain the window’s glass background.** The default glass background helps your content feel like part of people’s surroundings while adapting dynamically to lighting and using specular reflections and shadows to communicate the window’s scale and position. Removing the glass material tends to cause UI elements and text to become less legible and to no longer appear related to each other; using an opaque background obscures people’s surroundings and can make a window feel constricting and heavy.
 
@@ -114,7 +114,7 @@ The default window style consists of an upright plane that uses an unmodifiable 
 
 [Image: A screenshot of a window for an app in visionOS. The window includes text that discusses objects in orbit, and it includes buttons for viewing a satellite, the moon, and a telescope. The satellite button is selected and a 3D satellite is displayed.] Caption: A window containing 3D content
 
-**Minimize the depth of 3D content you display in a window.** The system adds highlights and shadows to the views and controls within a window, giving them the appearance of [depth](spatial-layout#Depth.md) and helping them feel more substantial, especially when people view the window from an angle. Although you can display 3D content in a window, the system clips it if the content extends too far from the window’s surface. To display 3D content that has greater depth, use a volume.
+**Minimize the depth of 3D content you display in a window.** The system adds highlights and shadows to the views and controls within a window, giving them the appearance of [depth](spatial-layout.md#Depth) and helping them feel more substantial, especially when people view the window from an angle. Although you can display 3D content in a window, the system clips it if the content extends too far from the window’s surface. To display 3D content that has greater depth, use a volume.
 
 #### visionOS volumes
 
@@ -122,7 +122,7 @@ You can use a volume to display 2D or 3D content that people can view from any a
 
 [Image: A screenshot of a volume containing a 3D globe in visionOS, beside a window.] Caption: A volume
 
-**Prefer using a volume to display rich, 3D content.** In contrast, if you want to present a familiar, UI-centric interface, it generally works best to use a [window](windows#visionOS-windows.md).
+**Prefer using a volume to display rich, 3D content.** In contrast, if you want to present a familiar, UI-centric interface, it generally works best to use a [window](windows.md#visionOS-windows).
 
 **Place 2D content so it looks good from multiple angles.** Because a person’s perspective changes as they move around a volume, the location of 2D content within it might appear to change in ways that don’t make sense. To pin 2D content to specific areas of 3D content inside a volume, you can use an attachment.
 

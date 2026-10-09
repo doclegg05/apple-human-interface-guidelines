@@ -34,7 +34,7 @@ Apps and games need to adapt to different display sizes, orientation changes, wi
 
 Here are some of the most common device and system characteristics that apps need to handle:
 
-- Regular and compact horizontal and vertical [size classes](layout#Size-classes.md)
+- Regular and compact horizontal and vertical [size classes](layout.md#Size-classes)
 - Different device screen sizes
 - Different device orientations and aspect ratios
 - System features like the Dynamic Island
@@ -46,7 +46,7 @@ Here are some of the most common device and system characteristics that apps nee
 
 Even if your app is locked to a certain orientation, such as a landscape-only game, it’s still important to ensure your interface resizes well to provide the best experience across devices and window sizes.
 
-**Be prepared for text-size changes.** People use [Dynamic Type](typography#Supporting-Dynamic-Type.md) to increase text size to be more readable, which occurs at the system level. Apps that don’t respond to this setting can be difficult or impossible to use for people who rely on this feature. Support Dynamic Type by adjusting your layout to accommodate text at larger sizes. For example, horizontally adjacent views may need to stack vertically to provide more space for text; table rows or other containers may need to grow in height so that text isn’t cropped or doesn’t overlap other content; and table rows with a single line of text by default might need to grow vertically to accommodate multiple lines of text.
+**Be prepared for text-size changes.** People use [Dynamic Type](typography.md#Supporting-Dynamic-Type) to increase text size to be more readable, which occurs at the system level. Apps that don’t respond to this setting can be difficult or impossible to use for people who rely on this feature. Support Dynamic Type by adjusting your layout to accommodate text at larger sizes. For example, horizontally adjacent views may need to stack vertically to provide more space for text; table rows or other containers may need to grow in height so that text isn’t cropped or doesn’t overlap other content; and table rows with a single line of text by default might need to grow vertically to accommodate multiple lines of text.
 
 To support Dynamic Type in your Unity-based game, use Apple’s accessibility plug-in (for developer guidance, see [Apple – Accessibility](https://github.com/apple/unityplugins/blob/main/plug-ins/Apple.Accessibility/Apple.Accessibility_Unity/Assets/Apple.Accessibility/Documentation~/Apple.Accessibility.md)). For guidance on displaying text in your app, see [Typography](typography.md).
 
@@ -218,7 +218,7 @@ If you use the UIKit collection view flow element, the number of columns in a gr
 
 ### visionOS
 
-In visionOS, you can lay out content within a window, a bounded 3D volume, or an immersive space. The guidance below focuses on laying out content in a window or volume; for guidance on displaying content spatially and best practices for using depth, scale, and positioning, see [Spatial layout](spatial-layout.md). To learn more about windows and volumes in visionOS, see [Windows > visionOS](windows#visionOS.md).
+In visionOS, you can lay out content within a window, a bounded 3D volume, or an immersive space. The guidance below focuses on laying out content in a window or volume; for guidance on displaying content spatially and best practices for using depth, scale, and positioning, see [Spatial layout](spatial-layout.md). To learn more about windows and volumes in visionOS, see [Windows > visionOS](windows.md#visionOS).
 
 **In general, support resizing.** The ability to resize windows and volumes is standard behavior in visionOS, just as in macOS and iPadOS. When you allow resizing, make sure your layout adapts well as it changes size, and prefer to keep content horizontally centered at very large sizes so people can easily view and interact with it.
 
@@ -230,7 +230,7 @@ To display larger models or views that primarily consist of 3D content, consider
 
 **Display supplemental content in an adjacent window, not in an ornament.** While [ornaments](ornaments.md) are flexible enough to act as custom components, they are best for app-specific interactive controls like toolbars and video playback controls, not supplemental content. To display a supplemental content view, open a new window next to the current one using [defaultWindowPlacement(_:)](https://developer.apple.com/documentation/swiftui/scene/defaultwindowplacement(_:)) instead of placing the content in an ornament. For developer guidance, see [Positioning and sizing windows](https://developer.apple.com/documentation/visionos/positioning-and-sizing-windows).
 
-**Include enough space around controls for them to be easy to interact with.** Put enough space around controls to make them clearly identifiable, and to prevent the system-provided hover effect from obscuring other content. For example, place buttons so their centers are at least 60 points apart. For guidance, see [Eyes](eyes.md), [Spatial layout](spatial-layout.md), and [Buttons > visionOS](buttons#visionOS.md).
+**Include enough space around controls for them to be easy to interact with.** Put enough space around controls to make them clearly identifiable, and to prevent the system-provided hover effect from obscuring other content. For example, place buttons so their centers are at least 60 points apart. For guidance, see [Eyes](eyes.md), [Spatial layout](spatial-layout.md), and [Buttons > visionOS](buttons.md#visionOS).
 
 ### watchOS
 

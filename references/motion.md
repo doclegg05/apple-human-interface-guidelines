@@ -8,7 +8,7 @@
 
 [Image: A sketch of three overlapping diamonds, suggesting the movement of an element from left to right. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.]
 
-Many system components automatically include motion, letting you offer familiar and consistent experiences throughout your app or game. System components might also adjust their motion in response to factors like accessibility settings or different input methods. For example, the movement of [Liquid Glass](materials#Liquid-Glass.md) responds to direct touch interaction with greater emphasis to reinforce the feeling of a tactile experience, but produces a more subdued effect when a person interacts using a trackpad.
+Many system components automatically include motion, letting you offer familiar and consistent experiences throughout your app or game. System components might also adjust their motion in response to factors like accessibility settings or different input methods. For example, the movement of [Liquid Glass](materials.md#Liquid-Glass) responds to direct touch interaction with greater emphasis to reinforce the feeling of a tactile experience, but produces a more subdued effect when a person interacts using a trackpad.
 
 If you design custom motion, follow the guidelines below.
 
@@ -28,7 +28,7 @@ If you design custom motion, follow the guidelines below.
 
 **Let people cancel motion.** As much as possible, don’t make people wait for an animation to complete before they can do anything, especially if they have to experience the animation more than once.
 
-**Consider using animated symbols where it makes sense.** When you use SF Symbols 5 or later, you can apply animations to SF Symbols or custom symbols. For guidance, see [Animations](sf-symbols#Animations.md).
+**Consider using animated symbols where it makes sense.** When you use SF Symbols 5 or later, you can apply animations to SF Symbols or custom symbols. For guidance, see [Animations](sf-symbols.md#Animations).
 
 ## Leveraging platform capabilities
 
@@ -42,11 +42,11 @@ If you design custom motion, follow the guidelines below.
 
 ### visionOS
 
-In addition to subtly communicating context, drawing attention to information, and enriching immersive experiences, motion in visionOS can combine with [depth](spatial-layout#Depth.md) to provide essential feedback when people look at interactive elements. Because motion is likely to be a large part of your visionOS experience, it’s crucial to avoid causing distraction, confusion, or discomfort.
+In addition to subtly communicating context, drawing attention to information, and enriching immersive experiences, motion in visionOS can combine with [depth](spatial-layout.md#Depth) to provide essential feedback when people look at interactive elements. Because motion is likely to be a large part of your visionOS experience, it’s crucial to avoid causing distraction, confusion, or discomfort.
 
 **As much as possible, avoid displaying motion at the edges of a person’s field of view.** People can be particularly sensitive to motion that occurs in their peripheral vision: in addition to being distracting, such motion can even cause discomfort because it can make people feel like they or their surroundings are moving. If you need to show an object moving in the periphery during an immersive experience, make sure the object’s brightness level is similar to the rest of the visible content.
 
-**Help people remain comfortable when showing the movement of large virtual objects.** If an object is large enough to fill a lot of the [field of view](spatial-layout#Field-of-view.md), occluding most or all of [passthrough](immersive-experiences#Immersion-and-passthrough.md), people can naturally perceive it as being part of their surroundings. To help people perceive the object’s movement without making them think that they or their surroundings are moving, you can increase the object’s translucency, helping people see through it, or lower its contrast to make its motion less noticeable.
+**Help people remain comfortable when showing the movement of large virtual objects.** If an object is large enough to fill a lot of the [field of view](spatial-layout.md#Field-of-view), occluding most or all of [passthrough](immersive-experiences.md#Immersion-and-passthrough), people can naturally perceive it as being part of their surroundings. To help people perceive the object’s movement without making them think that they or their surroundings are moving, you can increase the object’s translucency, helping people see through it, or lower its contrast to make its motion less noticeable.
 
 > **Note:** People can experience discomfort even when they’re the ones moving a large virtual object, such as a window. Although adjusting translucency and contrast can help in this scenario, consider also keeping a window’s size fairly small.
 

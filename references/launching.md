@@ -14,7 +14,7 @@ Launching begins when someone opens your app or game, includes an initial downlo
 
 **Launch instantly.** People want to start interacting with your app or game right away, and sometimes they don’t want to wait more than a couple of seconds.
 
-**If the platform requires it, provide a launch screen.** In iOS, iPadOS, and tvOS, the system displays your launch screen the moment your app or game starts and quickly replaces it with your first screen, giving people the impression that your experience is fast and responsive. For guidance, see [Launch screens](launching#Launch-screens.md). macOS, visionOS, and watchOS don’t require launch screens.
+**If the platform requires it, provide a launch screen.** In iOS, iPadOS, and tvOS, the system displays your launch screen the moment your app or game starts and quickly replaces it with your first screen, giving people the impression that your experience is fast and responsive. For guidance, see [Launch screens](launching.md#Launch-screens). macOS, visionOS, and watchOS don’t require launch screens.
 
 **If you need a splash screen, consider displaying it at the beginning of your onboarding flow.** A splash screen is a beautiful graphic that succinctly communicates branding and other information you need to provide. If you don’t provide an onboarding experience, you might display your splash screen as soon as launching completes.
 
@@ -42,7 +42,7 @@ Launching begins when someone opens your app or game, includes an initial downlo
 
 ### tvOS
 
-> **Note:** Unlike the [layered images](images#Layered-images.md) throughout much of a tvOS app, the launch screen is static.
+> **Note:** Unlike the [layered images](images.md#Layered-images) throughout much of a tvOS app, the launch screen is static.
 
 **In a live-viewing app, consider automatically starting playback soon after people start the app.** People come to your app to watch TV, so you might want to start playing new or recently viewed live content after a few seconds of inactivity. For guidance, see [Live-viewing apps](live-viewing-apps.md).
 

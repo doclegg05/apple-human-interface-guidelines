@@ -8,7 +8,7 @@
 
 [Image: A stylized representation of a search field containing placeholder text and a dictation icon. The image is tinted red to subtly reflect the red in the original six-color Apple logo.]
 
-A search field is an editable text field that displays a Search icon, a Clear button, and placeholder text where people can enter what they are searching for. Search fields can use a [scope bar](search-fields#Scope-bars-and-tokens.md) as well as [tokens](search-fields#Scope-bars-and-tokens.md) to help filter and refine the scope of their search. Across each platform, there are different patterns for accessing search based on the goals and design of your app.
+A search field is an editable text field that displays a Search icon, a Clear button, and placeholder text where people can enter what they are searching for. Search fields can use a [scope bar](search-fields.md#Scope-bars-and-tokens) as well as [tokens](search-fields.md#Scope-bars-and-tokens) to help filter and refine the scope of their search. Across each platform, there are different patterns for accessing search based on the goals and design of your app.
 
 For developer guidance, see [Adding a search interface to your app](https://developer.apple.com/documentation/swiftui/adding-a-search-interface-to-your-app); for guidance related to systemwide search, see [Searching](searching.md).
 

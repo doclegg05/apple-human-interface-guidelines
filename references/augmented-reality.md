@@ -41,7 +41,7 @@ Using the device’s camera to present the physical world onscreen live, your ap
 
 ## Providing coaching
 
-Before people can enjoy an AR experience in your app, they need to move their device in ways that lets ARKit evaluate the surroundings and detect surfaces. Consider using the built-in coaching view to show people what to do and provide feedback during the initialization process. You can also use the coaching view to help people reinitialize AR — a process known as *relocalization* — after an AR experience is interrupted by, for example, people switching briefly to a different app. For guidance on relocalization, see [Handling interruptions](augmented-reality#Handling-interruptions.md); for developer guidance, see [ARCoachingOverlayView](https://developer.apple.com/documentation/arkit/arcoachingoverlayview).
+Before people can enjoy an AR experience in your app, they need to move their device in ways that lets ARKit evaluate the surroundings and detect surfaces. Consider using the built-in coaching view to show people what to do and provide feedback during the initialization process. You can also use the coaching view to help people reinitialize AR — a process known as *relocalization* — after an AR experience is interrupted by, for example, people switching briefly to a different app. For guidance on relocalization, see [Handling interruptions](augmented-reality.md#Handling-interruptions); for developer guidance, see [ARCoachingOverlayView](https://developer.apple.com/documentation/arkit/arcoachingoverlayview).
 
 [Image: An illustration of an iPhone screen showing the corner of a room viewed through the camera. On the screen is a translucent overlay containing the surface-detection indicator. The indicator is a white square with rounded corners projected into the 3D space. A small iPhone is shown scanning back and forth along the base of the square. A circle of dots trailing the iPhone emphasizes the movement.]
 
@@ -208,7 +208,7 @@ Apps that include collections of products or other objects can use badging to id
 
 ### visionOS
 
-With the wearer’s [permission](privacy#visionOS.md), you can use ARKit in your visionOS app to detect surfaces in a person’s surroundings, use a person’s hand and finger postions to inform your [custom gestures](gestures#Designing-custom-gestures-in-visionOS.md), support interactions that incorporate nearby physical objects into your [immersive experience](immersive-experiences.md), and more. For developer guidance, see [ARKit](https://developer.apple.com/documentation/arkit).
+With the wearer’s [permission](privacy.md#visionOS), you can use ARKit in your visionOS app to detect surfaces in a person’s surroundings, use a person’s hand and finger postions to inform your [custom gestures](gestures.md#Designing-custom-gestures-in-visionOS), support interactions that incorporate nearby physical objects into your [immersive experience](immersive-experiences.md), and more. For developer guidance, see [ARKit](https://developer.apple.com/documentation/arkit).
 
 [Video: A recording showing a 3D model of a meteor in visionOS rotating above a physical table.]
 
